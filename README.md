@@ -19,11 +19,11 @@ Proyecto de Lenguajes de Marcas: una web en español sobre los Mobs (criaturas) 
 
 ## Peticiones que he hecho
 
-- `GET /api/v1/mobs` — la lista completa: 76 criaturas
-- `GET /api/v1/mobs/creeper` — ficha 1
-- `GET /api/v1/mobs/axolotl` — ficha 2
-- `GET /api/v1/mobs/ender-dragon` — ficha 3
-- `GET /api/v1/versions` — fechas de lanzamiento de cada versión
+- `GET /api/v1/mobs`  la lista completa: 76 criaturas
+- `GET /api/v1/mobs/creeper`  ficha 1
+- `GET /api/v1/mobs/axolotl`  ficha 2
+- `GET /api/v1/mobs/ender-dragon`  ficha 3
+- `GET /api/v1/versions`  fechas de lanzamiento de cada versión
 
 ## Tabla de campos de una criatura
 
