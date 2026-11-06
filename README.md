@@ -7,7 +7,7 @@ Proyecto de Lenguajes de Marcas: una web en español sobre los Mobs (criaturas) 
 - **Nombre:** Astroworld API 
 - **Qué ofrece:** Esta API nos ofrece datos de Minecraft (criaturas, biomas, objetos, versiones...) en formato JSON
 - **De dónde sale:** Esta la encontramos en un repositorio donde hay lista de Publics APIs, en la categoría *Games & Comics*
-- **Quién la mantiene:** Astroworld MC [Git de Astroworld](github.com/astroworld-mc)
+- **Quién la mantiene:** Astroworld MC [Git de Astroworld](https://github.com/astroworld-mc)
 - **Documentación:** [Enlace API](https://api.astroworldmc.com)
 - **Auth:** no necesita clave y tiene **HTTPS:**
 
