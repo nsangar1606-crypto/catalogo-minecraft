@@ -1,0 +1,3452 @@
+{
+  "success": true,
+  "count": 76,
+  "data": [
+    {
+      "name": "Cow",
+      "id": "cow",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Forest",
+        "Sunflower Plains",
+        "Flower Forest",
+        "Birch Forest",
+        "Taiga"
+      ],
+      "spawnConditions": "Spawns on grass blocks with light level 9+, in groups of 4.",
+      "drops": [
+        {
+          "item": "Raw Beef",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        },
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wanders aimlessly, avoids cliffs and water. Can be milked with a bucket. Follows players holding wheat.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Wheat",
+      "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+      "category": "passive",
+      "notes": "One of the most useful passive mobs for early game food and leather armor."
+    },
+    {
+      "name": "Sheep",
+      "id": "sheep",
+      "type": "passive",
+      "hp": 8,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Forest",
+        "Sunflower Plains",
+        "Flower Forest",
+        "Birch Forest",
+        "Taiga",
+        "Meadow"
+      ],
+      "spawnConditions": "Spawns on grass blocks with light level 9+, in groups of 4.",
+      "drops": [
+        {
+          "item": "Raw Mutton",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Wool",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wanders aimlessly, eats grass blocks to regrow wool. Can be sheared for 1-3 wool without killing.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Wheat",
+      "versionAdded": "Classic 0.27 SURVIVAL TEST",
+      "category": "passive",
+      "notes": "Most sheep spawn white. Other natural colors: light gray, gray, brown, black (rare), pink (very rare ~0.164%)."
+    },
+    {
+      "name": "Pig",
+      "id": "pig",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Forest",
+        "Sunflower Plains",
+        "Flower Forest",
+        "Birch Forest",
+        "Taiga"
+      ],
+      "spawnConditions": "Spawns on grass blocks with light level 9+, in groups of 4.",
+      "drops": [
+        {
+          "item": "Raw Porkchop",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wanders aimlessly. Can be saddled and ridden, steered with a Carrot on a Stick. Struck by lightning, transforms into a Zombified Piglin.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Carrot",
+      "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+      "category": "passive",
+      "notes": "Can also be bred with Potatoes or Beetroot."
+    },
+    {
+      "name": "Chicken",
+      "id": "chicken",
+      "type": "passive",
+      "hp": 4,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Forest",
+        "Sunflower Plains",
+        "Flower Forest",
+        "Birch Forest",
+        "Taiga"
+      ],
+      "spawnConditions": "Spawns on grass blocks with light level 9+, in groups of 4.",
+      "drops": [
+        {
+          "item": "Raw Chicken",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Feather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wanders aimlessly, flaps wings to fall slowly (no fall damage). Lays an egg every 5-10 minutes.",
+      "weaknesses": [
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Wheat Seeds",
+      "versionAdded": "Alpha v1.0.14",
+      "category": "passive",
+      "notes": "Can also be bred with Beetroot Seeds, Melon Seeds, or Pumpkin Seeds. Baby chickens can hatch from thrown eggs (1/8 chance)."
+    },
+    {
+      "name": "Horse",
+      "id": "horse",
+      "type": "passive",
+      "hp": 30,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Sunflower Plains",
+        "Savanna"
+      ],
+      "spawnConditions": "Spawns on grass blocks in herds of 2-6.",
+      "drops": [
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wanders in herds. Can be tamed, saddled, and fitted with horse armor. Variable stats for speed, jump height, and health (15-30 HP).",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Repeatedly mount the horse until hearts appear. Each attempt has a 5% base chance, increasing by 5% each try.",
+      "breedable": true,
+      "breedingItem": "Golden Apple",
+      "versionAdded": "1.6.1",
+      "category": "passive",
+      "notes": "Can also be bred with Golden Carrots. 7 base colors and 5 marking patterns create 35 variants. Health ranges from 15-30 HP."
+    },
+    {
+      "name": "Donkey",
+      "id": "donkey",
+      "type": "passive",
+      "hp": 25,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Sunflower Plains",
+        "Meadow"
+      ],
+      "spawnConditions": "Spawns on grass blocks, rarer than horses, in herds of 1-3.",
+      "drops": [
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Similar to horses but slower. Can be equipped with a chest for 15 inventory slots. Cannot wear horse armor.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Repeatedly mount the donkey until hearts appear, same as horses.",
+      "breedable": true,
+      "breedingItem": "Golden Apple",
+      "versionAdded": "1.6.1",
+      "category": "passive",
+      "notes": "Breeding a horse with a donkey produces a mule. Can also be bred with Golden Carrots. Health ranges from 15-30 HP."
+    },
+    {
+      "name": "Mule",
+      "id": "mule",
+      "type": "passive",
+      "hp": 25,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Does not spawn naturally. Bred from a horse and a donkey.",
+      "drops": [
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Combines horse and donkey traits. Can carry a chest (15 slots) and be saddled, but cannot wear horse armor.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Repeatedly mount the mule until hearts appear.",
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.6.1",
+      "category": "passive",
+      "notes": "Mules cannot breed, like in real life. Must be created by breeding a horse with a donkey."
+    },
+    {
+      "name": "Rabbit",
+      "id": "rabbit",
+      "type": "passive",
+      "hp": 3,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Desert",
+        "Flower Forest",
+        "Taiga",
+        "Snowy Taiga",
+        "Snowy Plains",
+        "Meadow",
+        "Cherry Grove"
+      ],
+      "spawnConditions": "Spawns on grass or sand blocks with light level 9+, in groups of 2-3.",
+      "drops": [
+        {
+          "item": "Raw Rabbit",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Rabbit Hide",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Rabbit's Foot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 10
+        }
+      ],
+      "behavior": "Hops around, avoids players and predators. Different skin variants depending on biome. Eats carrot crops.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage",
+        "Wolves"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Carrot",
+      "versionAdded": "1.8",
+      "category": "passive",
+      "notes": "Can also be bred with Dandelions or Golden Carrots. The Killer Bunny variant is hostile but unavailable in survival."
+    },
+    {
+      "name": "Mooshroom",
+      "id": "mooshroom",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Mushroom Fields"
+      ],
+      "spawnConditions": "Only spawns in Mushroom Fields biome on mycelium blocks.",
+      "drops": [
+        {
+          "item": "Raw Beef",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        },
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Red Mushroom",
+          "count": {
+            "min": 5,
+            "max": 5
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Acts like a cow. Can be milked with a bowl for Mushroom Stew. Shearing removes mushrooms and converts to a regular cow.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Wheat",
+      "versionAdded": "1.0.0",
+      "category": "passive",
+      "notes": "Red mooshrooms struck by lightning become brown mooshrooms. Brown mooshrooms give Suspicious Stew when milked with a bowl after being fed a flower."
+    },
+    {
+      "name": "Squid",
+      "id": "squid",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Ocean",
+        "River",
+        "Beach"
+      ],
+      "spawnConditions": "Spawns in water between Y=46 and Y=62 in any biome with water.",
+      "drops": [
+        {
+          "item": "Ink Sac",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Swims aimlessly in water, squirts ink cloud when attacked. Takes suffocation damage on land.",
+      "weaknesses": [
+        "Fire",
+        "Suffocation on land"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Beta 1.2",
+      "category": "passive",
+      "notes": "Ink sacs are used for black dye and crafting books and quills."
+    },
+    {
+      "name": "Glow Squid",
+      "id": "glow_squid",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Underground water"
+      ],
+      "spawnConditions": "Spawns in water in complete darkness (light level 0) below Y=30.",
+      "drops": [
+        {
+          "item": "Glow Ink Sac",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Swims aimlessly underwater, emits a glow texture but no actual light. Stops glowing briefly when damaged.",
+      "weaknesses": [
+        "Fire",
+        "Suffocation on land"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.17",
+      "category": "passive",
+      "notes": "Glow Ink Sacs are used to make glowing signs and Glow Item Frames."
+    },
+    {
+      "name": "Turtle",
+      "id": "turtle",
+      "type": "passive",
+      "hp": 30,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Beach"
+      ],
+      "spawnConditions": "Spawns on sand blocks in Beach biomes with light level 8+ above Y=60.",
+      "drops": [
+        {
+          "item": "Seagrass",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bowl",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 75
+        }
+      ],
+      "behavior": "Moves slowly on land, faster in water. Lays eggs on home beach. Baby turtles drop Scute when growing up.",
+      "weaknesses": [
+        "Lightning",
+        "Zombies and Drowned target baby turtles"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Seagrass",
+      "versionAdded": "1.13",
+      "category": "passive",
+      "notes": "Baby turtles drop a Scute when they grow up. 5 Scutes craft a Turtle Shell helmet providing Water Breathing."
+    },
+    {
+      "name": "Fox",
+      "id": "fox",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Taiga",
+        "Old Growth Taiga",
+        "Snowy Taiga",
+        "Grove"
+      ],
+      "spawnConditions": "Spawns on grass blocks in groups of 2-4. Snow foxes spawn in snowy taiga variants.",
+      "drops": [],
+      "behavior": "Nocturnal, sleeps during the day. Can pick up items in its mouth. Attacks chickens, rabbits, cod, salmon, and baby turtles. Trusts players who bred them.",
+      "weaknesses": [
+        "Wolves"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Sweet Berries",
+      "versionAdded": "1.14",
+      "category": "passive",
+      "notes": "Baby foxes bred by a player will trust the player but still run from others. Can also be bred with Glow Berries."
+    },
+    {
+      "name": "Panda",
+      "id": "panda",
+      "type": "passive",
+      "hp": 20,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Jungle",
+        "Bamboo Jungle"
+      ],
+      "spawnConditions": "Spawns on grass blocks in Jungle biomes, requires bamboo within 5 blocks.",
+      "drops": [
+        {
+          "item": "Bamboo",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Eats bamboo and cake. Has 7 personality types: normal, lazy, worried, playful, aggressive, weak, and brown. Aggressive pandas attack when hit.",
+      "weaknesses": [
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Bamboo",
+      "versionAdded": "1.14",
+      "category": "passive",
+      "notes": "Requires at least 8 bamboo blocks within 5 blocks to breed. Brown pandas are extremely rare (1/64 chance)."
+    },
+    {
+      "name": "Ocelot",
+      "id": "ocelot",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Jungle",
+        "Bamboo Jungle",
+        "Sparse Jungle"
+      ],
+      "spawnConditions": "Spawns on grass or leaves in Jungle biomes above Y=63.",
+      "drops": [],
+      "behavior": "Shy, runs from players unless approached slowly while holding raw cod or salmon. Creepers and phantoms avoid ocelots.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Raw Cod",
+      "versionAdded": "1.2.1",
+      "category": "passive",
+      "notes": "Since 1.14, ocelots can no longer be tamed into cats but can gain trust. Creepers stay 6 blocks away from ocelots."
+    },
+    {
+      "name": "Parrot",
+      "id": "parrot",
+      "type": "passive",
+      "hp": 6,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Jungle",
+        "Bamboo Jungle",
+        "Sparse Jungle"
+      ],
+      "spawnConditions": "Spawns on logs, leaves, or grass in Jungle biomes. Rare.",
+      "drops": [
+        {
+          "item": "Feather",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Flies around, perches on shoulders. Mimics sounds of nearby hostile mobs. Dances when near a playing jukebox.",
+      "weaknesses": [
+        "Cookies (instant death)"
+      ],
+      "tameable": true,
+      "tamingMethod": "Feed seeds (wheat, melon, pumpkin, or beetroot seeds). 1/3 chance per seed to tame.",
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.12",
+      "category": "passive",
+      "notes": "5 color variants: red, blue, green, cyan, gray. Feeding a cookie kills the parrot instantly."
+    },
+    {
+      "name": "Bat",
+      "id": "bat",
+      "type": "passive",
+      "hp": 6,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [
+        "Caves (all biomes)"
+      ],
+      "spawnConditions": "Spawns in caves at light level 3 or less, below Y=63. More common in October.",
+      "drops": [],
+      "behavior": "Flies around erratically. Hangs upside down on solid blocks when idle. Completely harmless.",
+      "weaknesses": [
+        "Fire",
+        "All damage sources"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.4.2",
+      "category": "passive",
+      "notes": "Drops no items or XP. Purely ambient mob."
+    },
+    {
+      "name": "Cod",
+      "id": "cod",
+      "type": "passive",
+      "hp": 3,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Ocean",
+        "Cold Ocean",
+        "Lukewarm Ocean",
+        "River"
+      ],
+      "spawnConditions": "Spawns in water in ocean biomes, in groups of 3-6.",
+      "drops": [
+        {
+          "item": "Raw Cod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bone Meal",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 5
+        }
+      ],
+      "behavior": "Swims in schools. Flops on land and suffocates. Can be picked up with a water bucket.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "passive",
+      "notes": "Can be caught with a bucket to create a Bucket of Cod, which can be placed elsewhere."
+    },
+    {
+      "name": "Salmon",
+      "id": "salmon",
+      "type": "passive",
+      "hp": 3,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "River",
+        "Cold Ocean",
+        "Frozen Ocean",
+        "Frozen River"
+      ],
+      "spawnConditions": "Spawns in water in cold/frozen ocean and river biomes, in groups of 1-5.",
+      "drops": [
+        {
+          "item": "Raw Salmon",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bone Meal",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 5
+        }
+      ],
+      "behavior": "Swims upstream in rivers. Flops on land and suffocates. Can be picked up with a water bucket.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "passive",
+      "notes": "Three size variants: small, medium, and large. Used to tame cats."
+    },
+    {
+      "name": "Tropical Fish",
+      "id": "tropical_fish",
+      "type": "passive",
+      "hp": 3,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Lukewarm Ocean",
+        "Warm Ocean",
+        "Lush Caves",
+        "Mangrove Swamp"
+      ],
+      "spawnConditions": "Spawns in warm/lukewarm ocean water in groups of 8.",
+      "drops": [
+        {
+          "item": "Tropical Fish",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bone Meal",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 5
+        }
+      ],
+      "behavior": "Swims in schools of the same variant. Flops on land. Can be picked up with a water bucket.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "passive",
+      "notes": "Over 2,700 naturally occurring variants with different colors, patterns, and shapes. 22 unique preset variants."
+    },
+    {
+      "name": "Pufferfish",
+      "id": "pufferfish",
+      "type": "passive",
+      "hp": 3,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Warm Ocean",
+        "Lukewarm Ocean"
+      ],
+      "spawnConditions": "Spawns in warm and lukewarm ocean water.",
+      "drops": [
+        {
+          "item": "Pufferfish",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bone Meal",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 5
+        }
+      ],
+      "behavior": "Inflates when players or mobs approach, dealing poison damage. Three inflation stages: deflated, half-puffed, fully puffed.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "passive",
+      "notes": "Inflicts Poison for 7 seconds. Pufferfish are used in Potions of Water Breathing."
+    },
+    {
+      "name": "Axolotl",
+      "id": "axolotl",
+      "type": "passive",
+      "hp": 14,
+      "damage": {
+        "easy": 2,
+        "normal": 2,
+        "hard": 2
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Lush Caves"
+      ],
+      "spawnConditions": "Spawns in water in Lush Caves biome, in total darkness on clay blocks.",
+      "drops": [],
+      "behavior": "Attacks Drowned, Guardians, Elder Guardians, Squid, and Glow Squid. Plays dead when hurt to regenerate health. Grants Regeneration to players who help them fight.",
+      "weaknesses": [
+        "Suffocation on land (dies in 5 minutes)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Bucket of Tropical Fish",
+      "versionAdded": "1.17",
+      "category": "passive",
+      "notes": "5 color variants: pink (lucy), brown (wild), gold, cyan, and blue (extremely rare, 1/1200 chance)."
+    },
+    {
+      "name": "Frog",
+      "id": "frog",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Swamp",
+        "Mangrove Swamp"
+      ],
+      "spawnConditions": "Spawns on grass blocks in swamp biomes.",
+      "drops": [],
+      "behavior": "Jumps high, eats small Slimes and Magma Cubes (producing Froglights from Magma Cubes). Tongue attack with short range.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Slimeball",
+      "versionAdded": "1.19",
+      "category": "passive",
+      "notes": "Three variants based on biome temperature where tadpole grows up: temperate (orange), cold (green), warm (white). Each variant produces a different Froglight color."
+    },
+    {
+      "name": "Tadpole",
+      "id": "tadpole",
+      "type": "passive",
+      "hp": 6,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Hatches from Frogspawn placed by frogs after breeding. Does not spawn naturally.",
+      "drops": [],
+      "behavior": "Swims in water. Grows into a frog after about 20 minutes. The biome temperature determines the frog variant.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Axolotls eat tadpoles"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.19",
+      "category": "passive",
+      "notes": "Can be picked up with a water bucket. Axolotls will attack and eat tadpoles."
+    },
+    {
+      "name": "Camel",
+      "id": "camel",
+      "type": "passive",
+      "hp": 32,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Desert Village"
+      ],
+      "spawnConditions": "One camel spawns in each desert village.",
+      "drops": [],
+      "behavior": "Can carry two players. Has a dash ability. Sits down periodically. Tall enough that most hostile mobs cannot reach riders.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Cactus",
+      "versionAdded": "1.20",
+      "category": "passive",
+      "notes": "Riders sit high enough (over 2 blocks) that zombies, skeletons, and spiders cannot reach them."
+    },
+    {
+      "name": "Sniffer",
+      "id": "sniffer",
+      "type": "passive",
+      "hp": 14,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Does not spawn naturally. Hatched from Sniffer Eggs found in Suspicious Sand in Warm Ocean Ruins.",
+      "drops": [
+        {
+          "item": "Moss Block",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Digs in dirt, grass, and moss blocks to find ancient Torchflower Seeds and Pitcher Pods.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Torchflower Seeds",
+      "versionAdded": "1.20",
+      "category": "passive",
+      "notes": "Won the 2022 Minecraft Mob Vote. An ancient mob brought back from extinction. Eggs are found through archaeology."
+    },
+    {
+      "name": "Armadillo",
+      "id": "armadillo",
+      "type": "passive",
+      "hp": 12,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Savanna",
+        "Badlands"
+      ],
+      "spawnConditions": "Spawns on grass blocks in savanna and badlands biomes.",
+      "drops": [],
+      "behavior": "Rolls into a ball when threatened by sprinting players, undead mobs, or spiders. Periodically drops Armadillo Scutes.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Spider Eye",
+      "versionAdded": "1.20.5",
+      "category": "passive",
+      "notes": "Won the 2023 Minecraft Mob Vote. Armadillo Scutes are used to craft Wolf Armor."
+    },
+    {
+      "name": "Allay",
+      "id": "allay",
+      "type": "passive",
+      "hp": 20,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [
+        "Pillager Outpost",
+        "Woodland Mansion"
+      ],
+      "spawnConditions": "Found in cages in Pillager Outposts and Woodland Mansions. Does not spawn naturally elsewhere.",
+      "drops": [],
+      "behavior": "Collects and delivers items matching what the player gives it. Likes note blocks and will drop items near them. Dances when near a playing jukebox.",
+      "weaknesses": [
+        "Fire",
+        "All damage sources"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.19",
+      "category": "passive",
+      "notes": "Can duplicate when given an Amethyst Shard near a note block that was recently played. Extremely useful for item sorting farms."
+    },
+    {
+      "name": "Wolf",
+      "id": "wolf",
+      "type": "neutral",
+      "hp": 8,
+      "damage": {
+        "easy": 3,
+        "normal": 4,
+        "hard": 6
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Forest",
+        "Taiga",
+        "Old Growth Taiga",
+        "Snowy Taiga",
+        "Grove"
+      ],
+      "spawnConditions": "Spawns on grass blocks in forest and taiga biomes, in packs of 4.",
+      "drops": [],
+      "behavior": "Wild wolves are neutral, attacking only when hit. Tamed wolves follow and protect their owner. Attack skeletons on sight.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Feed bones to a wild wolf. Each bone has a 1/3 chance to tame. Collar appears when tamed.",
+      "breedable": true,
+      "breedingItem": "Any Meat",
+      "versionAdded": "Beta 1.4",
+      "category": "neutral",
+      "notes": "Tamed wolves have 20 HP (10 hearts). When tamed, HP increases and damage is boosted. Can be dyed with any color to change collar color. Wolf Armor was added in 1.20.5."
+    },
+    {
+      "name": "Bee",
+      "id": "bee",
+      "type": "neutral",
+      "hp": 10,
+      "damage": {
+        "easy": 2,
+        "normal": 2,
+        "hard": 3
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Plains",
+        "Sunflower Plains",
+        "Flower Forest",
+        "Meadow",
+        "Cherry Grove",
+        "Birch Forest"
+      ],
+      "spawnConditions": "Spawns near bee nests on oak or birch trees. Groups of 3 per nest.",
+      "drops": [],
+      "behavior": "Pollinates flowers and crops (boosting growth). Returns to nest/hive to produce honey. Attacks in swarms if nest is destroyed or bee is hit, loses stinger and dies.",
+      "weaknesses": [
+        "Water",
+        "Rain (seeks shelter)",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Any Flower",
+      "versionAdded": "1.15",
+      "category": "neutral",
+      "notes": "After stinging, a bee dies in about 1 minute. Use campfire smoke below nests/hives to harvest honey safely without angering bees."
+    },
+    {
+      "name": "Enderman",
+      "id": "enderman",
+      "type": "neutral",
+      "hp": 40,
+      "damage": {
+        "easy": 4,
+        "normal": 7,
+        "hard": 11
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes",
+        "The End",
+        "Nether (Warped Forest, Soul Sand Valley)"
+      ],
+      "spawnConditions": "Spawns at light level 0 in the Overworld. Common in The End. Spawns at any light level in Warped Forest.",
+      "drops": [
+        {
+          "item": "Ender Pearl",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Teleports randomly. Becomes hostile when looked at (crosshair on upper body) or attacked. Picks up and moves blocks. Damaged by water and rain.",
+      "weaknesses": [
+        "Water",
+        "Rain",
+        "Fire (but teleports away)",
+        "Boats (traps them)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Beta 1.8",
+      "category": "neutral",
+      "notes": "Essential for reaching The End. Ender Pearls craft Eyes of Ender. Wearing a carved pumpkin prevents aggro from eye contact."
+    },
+    {
+      "name": "Spider",
+      "id": "spider",
+      "type": "neutral",
+      "hp": 16,
+      "damage": {
+        "easy": 2,
+        "normal": 2,
+        "hard": 3
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes"
+      ],
+      "spawnConditions": "Spawns at light level 0 in the Overworld on solid blocks. Hostile at night, neutral during the day.",
+      "drops": [
+        {
+          "item": "String",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Spider Eye",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 33
+        }
+      ],
+      "behavior": "Hostile at night or in darkness, neutral in daylight (unless already aggro). Can climb walls. Fits through 1-block gaps. 1% chance to spawn with a status effect.",
+      "weaknesses": [
+        "Fire",
+        "Bane of Arthropods enchantment"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Classic 0.27 SURVIVAL TEST",
+      "category": "neutral",
+      "notes": "Can spawn as a Spider Jockey (skeleton rider). Bane of Arthropods deals extra damage to spiders."
+    },
+    {
+      "name": "Cave Spider",
+      "id": "cave_spider",
+      "type": "neutral",
+      "hp": 12,
+      "damage": {
+        "easy": 2,
+        "normal": 2,
+        "hard": 3
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Mineshafts"
+      ],
+      "spawnConditions": "Spawns from monster spawners in Mineshafts only.",
+      "drops": [
+        {
+          "item": "String",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Spider Eye",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 33
+        }
+      ],
+      "behavior": "Same as spiders but smaller (1x0.5 blocks) and inflicts Poison on Normal and Hard difficulty. Can fit through 0.5-block gaps.",
+      "weaknesses": [
+        "Fire",
+        "Bane of Arthropods enchantment"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Beta 1.8",
+      "category": "neutral",
+      "notes": "Inflicts Poison for 7 seconds on Normal, 15 seconds on Hard. Found only in Mineshaft spawner rooms with cobwebs."
+    },
+    {
+      "name": "Zombified Piglin",
+      "id": "zombified_piglin",
+      "type": "neutral",
+      "hp": 20,
+      "damage": {
+        "easy": 5,
+        "normal": 8,
+        "hard": 12
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Nether Wastes",
+        "Crimson Forest",
+        "Nether (all)"
+      ],
+      "spawnConditions": "Spawns in the Nether in groups. Can also spawn from Nether Portals in the Overworld or when a pig is struck by lightning.",
+      "drops": [
+        {
+          "item": "Rotten Flesh",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Gold Nugget",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Gold Ingot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        }
+      ],
+      "behavior": "Neutral until one is attacked, then all nearby Zombified Piglins swarm. Always carries a Golden Sword. Immune to fire and lava.",
+      "weaknesses": [
+        "Smite enchantment",
+        "Healing splash potions"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Alpha v1.2.0",
+      "category": "neutral",
+      "notes": "Formerly called Zombie Pigman. Hitting one alerts all Zombified Piglins within 35 blocks. They forgive after 20-40 seconds."
+    },
+    {
+      "name": "Llama",
+      "id": "llama",
+      "type": "neutral",
+      "hp": 22,
+      "damage": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 1
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Savanna",
+        "Windswept Hills",
+        "Windswept Forest"
+      ],
+      "spawnConditions": "Spawns on grass blocks in herds of 4-6.",
+      "drops": [
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Spits at mobs that attack them or their herd. Can be equipped with chests (3-15 slots based on Strength stat) and carpets as decoration.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Repeatedly mount the llama until hearts appear, similar to horses.",
+      "breedable": true,
+      "breedingItem": "Hay Bale",
+      "versionAdded": "1.11",
+      "category": "neutral",
+      "notes": "Form caravans: leash one llama and up to 9 more will follow in a chain. Spit deals only 1 damage."
+    },
+    {
+      "name": "Dolphin",
+      "id": "dolphin",
+      "type": "neutral",
+      "hp": 10,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Ocean",
+        "Deep Ocean",
+        "Lukewarm Ocean",
+        "Warm Ocean"
+      ],
+      "spawnConditions": "Spawns in groups of 3-5 in non-frozen ocean biomes.",
+      "drops": [
+        {
+          "item": "Raw Cod",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Playful, jumps out of water. Grants Dolphin's Grace speed boost to swimming players. Leads players to treasure if fed raw cod.",
+      "weaknesses": [
+        "Suffocation on land",
+        "Drowning (needs both air and water)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "neutral",
+      "notes": "Dolphins must have access to both air and water or they die. They lead players to the nearest shipwreck or underwater ruins when fed Raw Cod."
+    },
+    {
+      "name": "Iron Golem",
+      "id": "iron_golem",
+      "type": "neutral",
+      "hp": 100,
+      "damage": {
+        "easy": 7,
+        "normal": 11,
+        "hard": 21
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [
+        "Villages"
+      ],
+      "spawnConditions": "Spawns naturally in villages with 10+ villagers and 21+ beds. Can be built by players with 4 iron blocks and 1 carved pumpkin.",
+      "drops": [
+        {
+          "item": "Iron Ingot",
+          "count": {
+            "min": 3,
+            "max": 5
+          },
+          "chance": 100
+        },
+        {
+          "item": "Poppy",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Defends villagers from hostile mobs. Attacks most hostile mobs on sight. Player-built golems never attack their creator. Village-spawned ones may attack players with low reputation.",
+      "weaknesses": [
+        "Cracking appearance indicates damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.2.1",
+      "category": "neutral",
+      "notes": "Can be healed with Iron Ingots. Shows cracks at 75%, 50%, and 25% HP. Immune to knockback and drowning. Offers poppies to villagers."
+    },
+    {
+      "name": "Polar Bear",
+      "id": "polar_bear",
+      "type": "neutral",
+      "hp": 30,
+      "damage": {
+        "easy": 4,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Snowy Plains",
+        "Ice Spikes",
+        "Frozen Ocean",
+        "Frozen River",
+        "Snowy Taiga"
+      ],
+      "spawnConditions": "Spawns on ice or snow blocks in cold biomes, in groups of 1-2 (adult sometimes with baby).",
+      "drops": [
+        {
+          "item": "Raw Cod",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 75
+        }
+      ],
+      "behavior": "Adults are neutral but become hostile if a baby is nearby and a player approaches. Babies are always passive.",
+      "weaknesses": [
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.10",
+      "category": "neutral",
+      "notes": "One of the few mobs that cannot be bred. Adults attack foxes on sight."
+    },
+    {
+      "name": "Goat",
+      "id": "goat",
+      "type": "neutral",
+      "hp": 10,
+      "damage": {
+        "easy": 1,
+        "normal": 2,
+        "hard": 3
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Jagged Peaks",
+        "Frozen Peaks",
+        "Snowy Slopes"
+      ],
+      "spawnConditions": "Spawns on stone, snow, or packed ice in mountain biomes, in groups of 2-3.",
+      "drops": [],
+      "behavior": "Jumps very high (10 blocks). Rams players, mobs, and armor stands every 30-300 seconds. Screaming goats are rare and ram more frequently.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage (but reduced)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Wheat",
+      "versionAdded": "1.17",
+      "category": "neutral",
+      "notes": "Screaming goats are a rare variant (2% chance). Rams can knock off Goat Horns from solid blocks. 8 horn variants exist."
+    },
+    {
+      "name": "Trader Llama",
+      "id": "trader_llama",
+      "type": "neutral",
+      "hp": 22,
+      "damage": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 1
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Spawns with Wandering Traders. Does not spawn naturally on its own.",
+      "drops": [
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Accompanies Wandering Traders, protecting them by spitting at hostile mobs. Becomes tameable after the trader despawns.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Repeatedly mount the llama until hearts appear, after the Wandering Trader has despawned or been killed.",
+      "breedable": true,
+      "breedingItem": "Hay Bale",
+      "versionAdded": "1.14",
+      "category": "neutral",
+      "notes": "Always spawns with a decorative carpet. Can be bred with regular llamas."
+    },
+    {
+      "name": "Zombie",
+      "id": "zombie",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes"
+      ],
+      "spawnConditions": "Spawns at light level 0 on solid blocks in the Overworld.",
+      "drops": [
+        {
+          "item": "Rotten Flesh",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Iron Ingot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        },
+        {
+          "item": "Carrot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        },
+        {
+          "item": "Potato",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        }
+      ],
+      "behavior": "Pursues and attacks players and villagers. Burns in sunlight. Can break wooden doors on Hard difficulty. Baby zombies are faster and do not burn.",
+      "weaknesses": [
+        "Sunlight",
+        "Fire",
+        "Smite enchantment",
+        "Healing splash potions"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+      "category": "hostile",
+      "notes": "Zombie Villagers have a 5% spawn rate among zombies and can be cured with a Weakness potion and Golden Apple. Can pick up and equip items."
+    },
+    {
+      "name": "Skeleton",
+      "id": "skeleton",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes"
+      ],
+      "spawnConditions": "Spawns at light level 0 on solid blocks in the Overworld.",
+      "drops": [
+        {
+          "item": "Bone",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Arrow",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Bow",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 8.5
+        }
+      ],
+      "behavior": "Ranged attacker with a bow. Burns in sunlight (seeks shade or water). Strafes while shooting. Better accuracy at closer range.",
+      "weaknesses": [
+        "Sunlight",
+        "Fire",
+        "Smite enchantment",
+        "Shields (block arrows)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+      "category": "hostile",
+      "notes": "Bones are essential for taming wolves and crafting bone meal. Flee from wolves."
+    },
+    {
+      "name": "Creeper",
+      "id": "creeper",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 22,
+        "normal": 43,
+        "hard": 64
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes"
+      ],
+      "spawnConditions": "Spawns at light level 0 on solid blocks in the Overworld.",
+      "drops": [
+        {
+          "item": "Gunpowder",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Music Disc",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Silently approaches players and detonates after a 1.5s fuse. Explosion destroys blocks. Charged creepers (struck by lightning) have double explosion power.",
+      "weaknesses": [
+        "Cats and ocelots (flees from them)",
+        "Shields",
+        "Knockback"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+      "category": "hostile",
+      "notes": "Music Discs drop only when killed by a skeleton or stray arrow. Charged creepers kill another mob to drop its head. Iconic Minecraft mob created from a modeling error."
+    },
+    {
+      "name": "Witch",
+      "id": "witch",
+      "type": "hostile",
+      "hp": 26,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "All Overworld biomes",
+        "Witch Huts (Swamp)"
+      ],
+      "spawnConditions": "Spawns at light level 0 or in Swamp Huts. Villagers struck by lightning become witches.",
+      "drops": [
+        {
+          "item": "Glass Bottle",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Glowstone Dust",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Gunpowder",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Redstone Dust",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Spider Eye",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Sugar",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        },
+        {
+          "item": "Stick",
+          "count": {
+            "min": 0,
+            "max": 6
+          },
+          "chance": 12.5
+        }
+      ],
+      "behavior": "Attacks by throwing harmful splash potions (Poison, Slowness, Weakness, Harming). Drinks defensive potions (Healing, Fire Resistance, Water Breathing, Speed).",
+      "weaknesses": [
+        "Instant Damage potions",
+        "Melee while drinking"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.4.2",
+      "category": "hostile",
+      "notes": "Has 85% magic resistance while drinking potions. Witch huts in swamps are the only place they spawn at any light level."
+    },
+    {
+      "name": "Slime",
+      "id": "slime",
+      "type": "hostile",
+      "hp": 16,
+      "damage": {
+        "easy": 3,
+        "normal": 4,
+        "hard": 6
+      },
+      "xpDrop": {
+        "min": 4,
+        "max": 4
+      },
+      "spawnBiomes": [
+        "Swamp",
+        "Slime Chunks (below Y=40)"
+      ],
+      "spawnConditions": "In swamps: spawns at light level 7 or less between Y=51-69. In slime chunks: spawns below Y=40 at any light level.",
+      "drops": [
+        {
+          "item": "Slimeball",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Bounces toward players. Splits into 2-4 smaller slimes when killed (large > medium > small). Only small slimes drop slimeballs.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Alpha v1.0.11",
+      "category": "hostile",
+      "notes": "HP values: Large = 16, Medium = 4, Small = 1. Small slimes deal 0 damage. Slime chunks are determined by world seed. Swamp spawning increases during full moons."
+    },
+    {
+      "name": "Magma Cube",
+      "id": "magma_cube",
+      "type": "hostile",
+      "hp": 16,
+      "damage": {
+        "easy": 3,
+        "normal": 4,
+        "hard": 6
+      },
+      "xpDrop": {
+        "min": 4,
+        "max": 4
+      },
+      "spawnBiomes": [
+        "Nether Wastes",
+        "Basalt Deltas"
+      ],
+      "spawnConditions": "Spawns anywhere in the Nether. Most common in Basalt Deltas.",
+      "drops": [
+        {
+          "item": "Magma Cream",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 25
+        }
+      ],
+      "behavior": "Like slimes but immune to fire and lava. Bounces higher and splits when killed. Found in large numbers in Basalt Deltas.",
+      "weaknesses": [
+        "Water (takes damage)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.0.0",
+      "category": "hostile",
+      "notes": "HP values: Large = 16, Medium = 4, Small = 1. Frogs can eat small magma cubes to produce Froglights of different colors based on frog variant."
+    },
+    {
+      "name": "Phantom",
+      "id": "phantom",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Overworld (sky)"
+      ],
+      "spawnConditions": "Spawns in the sky at night or during thunderstorms if the player has not slept for 3+ in-game days.",
+      "drops": [
+        {
+          "item": "Phantom Membrane",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Flies in circles above the player, then swoops down to attack. Burns in sunlight. Targets only players who haven't slept.",
+      "weaknesses": [
+        "Sunlight",
+        "Cats (flees from them)",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "hostile",
+      "notes": "Phantom Membranes are used to repair Elytra and brew Potions of Slow Falling. Sleep regularly to prevent phantom spawns."
+    },
+    {
+      "name": "Drowned",
+      "id": "drowned",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Ocean",
+        "River",
+        "Dripstone Caves"
+      ],
+      "spawnConditions": "Spawns in ocean and river biomes underwater. Zombies submerged in water for 30 seconds convert to Drowned.",
+      "drops": [
+        {
+          "item": "Rotten Flesh",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Copper Ingot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 11
+        },
+        {
+          "item": "Trident",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 6.25
+        }
+      ],
+      "behavior": "Swims and attacks players in water. Some spawn with tridents (ranged attack). Burns in sunlight on land but safe underwater.",
+      "weaknesses": [
+        "Sunlight (on land)",
+        "Smite enchantment",
+        "Healing splash potions"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.13",
+      "category": "hostile",
+      "notes": "Only drowned naturally holding a trident can drop one (8.5% chance on Java). Primary renewable source of tridents and copper."
+    },
+    {
+      "name": "Husk",
+      "id": "husk",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Desert"
+      ],
+      "spawnConditions": "Spawns at light level 0 in desert biomes on sand blocks. Replaces 80% of zombie spawns in deserts.",
+      "drops": [
+        {
+          "item": "Rotten Flesh",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Iron Ingot",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        }
+      ],
+      "behavior": "Zombie variant that does not burn in sunlight. Inflicts Hunger effect on attack. Converts to zombie if submerged in water.",
+      "weaknesses": [
+        "Smite enchantment",
+        "Healing splash potions"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.10",
+      "category": "hostile",
+      "notes": "Inflicts Hunger effect for 7 seconds multiplied by the regional difficulty. Unlike zombies, husks do not burn in sunlight."
+    },
+    {
+      "name": "Stray",
+      "id": "stray",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Snowy Plains",
+        "Ice Spikes",
+        "Frozen Ocean",
+        "Frozen River",
+        "Snowy Taiga"
+      ],
+      "spawnConditions": "Spawns at light level 0 in snowy/frozen biomes. Replaces 80% of skeleton spawns in frozen biomes.",
+      "drops": [
+        {
+          "item": "Bone",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Arrow",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Arrow of Slowness",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 50
+        }
+      ],
+      "behavior": "Skeleton variant that shoots Arrows of Slowness. Does not burn in sunlight (unlike regular skeletons).",
+      "weaknesses": [
+        "Smite enchantment",
+        "Shields"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.10",
+      "category": "hostile",
+      "notes": "Arrows of Slowness inflict Slowness I for 30 seconds. Strays are immune to freezing damage from powder snow."
+    },
+    {
+      "name": "Blaze",
+      "id": "blaze",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 3,
+        "normal": 5,
+        "hard": 7
+      },
+      "xpDrop": {
+        "min": 10,
+        "max": 10
+      },
+      "spawnBiomes": [
+        "Nether Fortress"
+      ],
+      "spawnConditions": "Spawns from Blaze spawners in Nether Fortresses.",
+      "drops": [
+        {
+          "item": "Blaze Rod",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Flies and shoots triple fireballs. Sets target on fire. Immune to fire and lava. Damaged by snowballs (3 damage each).",
+      "weaknesses": [
+        "Snowballs (3 damage)",
+        "Water",
+        "Splash Water Bottles"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.0.0",
+      "category": "hostile",
+      "notes": "Blaze Rods are essential for crafting Brewing Stands and Blaze Powder (fuel for brewing and crafting Eyes of Ender)."
+    },
+    {
+      "name": "Ghast",
+      "id": "ghast",
+      "type": "hostile",
+      "hp": 10,
+      "damage": {
+        "easy": 4,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Nether Wastes",
+        "Soul Sand Valley",
+        "Basalt Deltas"
+      ],
+      "spawnConditions": "Spawns in open areas of the Nether with at least 4x4x4 blocks of space.",
+      "drops": [
+        {
+          "item": "Ghast Tear",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Gunpowder",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Large flying mob that shoots explosive fireballs from long range. Fireballs can be deflected back by attacking them.",
+      "weaknesses": [
+        "Deflected fireballs (one-shot kill)",
+        "Arrows"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Alpha v1.2.0",
+      "category": "hostile",
+      "notes": "Ghast Tears are used in brewing Potions of Regeneration and crafting End Crystals. Despite their size (4x4x4), they only have 10 HP."
+    },
+    {
+      "name": "Wither Skeleton",
+      "id": "wither_skeleton",
+      "type": "hostile",
+      "hp": 20,
+      "damage": {
+        "easy": 5,
+        "normal": 8,
+        "hard": 12
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Nether Fortress"
+      ],
+      "spawnConditions": "Spawns in Nether Fortresses at light level 7 or less.",
+      "drops": [
+        {
+          "item": "Bone",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Coal",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 33
+        },
+        {
+          "item": "Wither Skeleton Skull",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 2.5
+        }
+      ],
+      "behavior": "Melee attacker with stone sword that inflicts Wither effect for 10 seconds. Immune to fire. 3 blocks tall, can only spawn in areas with 3+ blocks of headroom.",
+      "weaknesses": [
+        "Smite enchantment"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.4.2",
+      "category": "hostile",
+      "notes": "3 Wither Skeleton Skulls + 4 Soul Sand/Soil are needed to summon the Wither boss. Looting III increases skull drop rate to ~5.5%."
+    },
+    {
+      "name": "Piglin Brute",
+      "id": "piglin_brute",
+      "type": "hostile",
+      "hp": 50,
+      "damage": {
+        "easy": 7,
+        "normal": 13,
+        "hard": 19
+      },
+      "xpDrop": {
+        "min": 20,
+        "max": 20
+      },
+      "spawnBiomes": [
+        "Bastion Remnant"
+      ],
+      "spawnConditions": "Spawns only in Bastion Remnants during world generation. Does not respawn.",
+      "drops": [
+        {
+          "item": "Golden Axe",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 8.5
+        }
+      ],
+      "behavior": "Always hostile to players regardless of gold armor. Extremely strong. Does not barter or retreat. Guards Bastion Remnants.",
+      "weaknesses": [
+        "Fire (but immune to lava)",
+        "Smite enchantment (becomes zombified in Overworld)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.16.2",
+      "category": "hostile",
+      "notes": "Unlike regular piglins, gold armor does NOT prevent aggro. Transforms into a Zombified Piglin in the Overworld. Does not respawn once killed."
+    },
+    {
+      "name": "Piglin",
+      "id": "piglin",
+      "type": "hostile",
+      "hp": 16,
+      "damage": {
+        "easy": 5,
+        "normal": 8,
+        "hard": 12
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Nether Wastes",
+        "Crimson Forest",
+        "Bastion Remnant"
+      ],
+      "spawnConditions": "Spawns in the Nether in groups of 2-4.",
+      "drops": [],
+      "behavior": "Hostile unless player wears at least one piece of gold armor. Barters when given Gold Ingots. Hunts Hoglins. Adults attack players who open chests or mine gold.",
+      "weaknesses": [
+        "Fire",
+        "Becomes Zombified Piglin in the Overworld"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.16",
+      "category": "hostile",
+      "notes": "Bartering with gold ingots gives random items including Ender Pearls, Fire Resistance potions, and more. Transforms into Zombified Piglin in the Overworld or End."
+    },
+    {
+      "name": "Hoglin",
+      "id": "hoglin",
+      "type": "hostile",
+      "hp": 40,
+      "damage": {
+        "easy": 3,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Crimson Forest",
+        "Bastion Remnant"
+      ],
+      "spawnConditions": "Spawns in Crimson Forest biomes in the Nether in groups of 3-4.",
+      "drops": [
+        {
+          "item": "Raw Porkchop",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "chance": 100
+        },
+        {
+          "item": "Leather",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Aggressive beast that flings players into the air. Fears Warped Fungus and Nether Portals. The only breedable hostile mob.",
+      "weaknesses": [
+        "Warped Fungus (repels them)",
+        "Nether Portals"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Crimson Fungus",
+      "versionAdded": "1.16",
+      "category": "hostile",
+      "notes": "Transforms into a Zoglin in the Overworld. The only breedable hostile mob. Piglins hunt hoglins for food. Repelled by Warped Fungus."
+    },
+    {
+      "name": "Zoglin",
+      "id": "zoglin",
+      "type": "hostile",
+      "hp": 40,
+      "damage": {
+        "easy": 3,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Does not spawn naturally. Created when a Hoglin enters the Overworld or End.",
+      "drops": [
+        {
+          "item": "Rotten Flesh",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Undead, zombified Hoglin that attacks almost all mobs and players. Cannot be bred or fed. Extremely aggressive.",
+      "weaknesses": [
+        "Smite enchantment",
+        "Healing splash potions"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.16",
+      "category": "hostile",
+      "notes": "Attacks all mobs except creepers and other zoglins. Unlike hoglins, zoglins cannot be repelled by warped fungus."
+    },
+    {
+      "name": "Ravager",
+      "id": "ravager",
+      "type": "hostile",
+      "hp": 100,
+      "damage": {
+        "easy": 7,
+        "normal": 12,
+        "hard": 18
+      },
+      "xpDrop": {
+        "min": 20,
+        "max": 20
+      },
+      "spawnBiomes": [
+        "Villages (during raids)"
+      ],
+      "spawnConditions": "Spawns only during raids (wave 3+). Sometimes ridden by Pillagers, Vindicators, or Evokers.",
+      "drops": [
+        {
+          "item": "Saddle",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Charges at players, dealing knockback. Destroys crop blocks and leaves on contact. Roars after being stunned by a shield.",
+      "weaknesses": [
+        "Shield stun",
+        "High ground"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.14",
+      "category": "hostile",
+      "notes": "Blocking a Ravager charge with a shield stuns it for 2 seconds. One of the strongest non-boss mobs in the game."
+    },
+    {
+      "name": "Vex",
+      "id": "vex",
+      "type": "hostile",
+      "hp": 14,
+      "damage": {
+        "easy": 5,
+        "normal": 9,
+        "hard": 13
+      },
+      "xpDrop": {
+        "min": 3,
+        "max": 3
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Summoned by Evokers during combat. Does not spawn naturally.",
+      "drops": [],
+      "behavior": "Tiny flying mob that phases through blocks. Attacks players and villagers. Takes damage over time after 30-119 seconds (starts flickering).",
+      "weaknesses": [
+        "Limited lifespan",
+        "All damage sources"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.11",
+      "category": "hostile",
+      "notes": "Can fly through any block. Allays are the peaceful counterpart of vexes. Summoned in groups of 2-4 by evokers."
+    },
+    {
+      "name": "Evoker",
+      "id": "evoker",
+      "type": "hostile",
+      "hp": 24,
+      "damage": {
+        "easy": 4,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 10,
+        "max": 10
+      },
+      "spawnBiomes": [
+        "Woodland Mansion",
+        "Villages (during raids)"
+      ],
+      "spawnConditions": "Spawns in Woodland Mansions and during raids (wave 5+).",
+      "drops": [
+        {
+          "item": "Totem of Undying",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Emerald",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 50
+        }
+      ],
+      "behavior": "Summons Vexes and casts fang attacks (line of snapping jaws from the ground). Transforms blue sheep into red sheep.",
+      "weaknesses": [
+        "Melee rush (prevent spellcasting)",
+        "Ranged attacks"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.11",
+      "category": "hostile",
+      "notes": "Always drops a Totem of Undying, which saves the holder from death once. One of the most valuable mob drops in the game."
+    },
+    {
+      "name": "Vindicator",
+      "id": "vindicator",
+      "type": "hostile",
+      "hp": 24,
+      "damage": {
+        "easy": 7,
+        "normal": 13,
+        "hard": 19
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Woodland Mansion",
+        "Villages (during raids)"
+      ],
+      "spawnConditions": "Spawns in Woodland Mansions and during raids (wave 2+).",
+      "drops": [
+        {
+          "item": "Emerald",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 50
+        },
+        {
+          "item": "Iron Axe",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 8.5
+        }
+      ],
+      "behavior": "Aggressive melee attacker wielding an iron axe. Very fast and deals high damage. Named 'Johnny' vindicators attack all mobs.",
+      "weaknesses": [
+        "Ranged attacks (kiting)",
+        "Shields"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.11",
+      "category": "hostile",
+      "notes": "Naming a vindicator 'Johnny' with a name tag causes it to attack all nearby mobs except other illagers and ghasts."
+    },
+    {
+      "name": "Pillager",
+      "id": "pillager",
+      "type": "hostile",
+      "hp": 24,
+      "damage": {
+        "easy": 3,
+        "normal": 4,
+        "hard": 5
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Pillager Outpost",
+        "Villages (during raids)"
+      ],
+      "spawnConditions": "Spawns around Pillager Outposts and during raids (wave 1+).",
+      "drops": [
+        {
+          "item": "Arrow",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Crossbow",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 8.5
+        },
+        {
+          "item": "Ominous Banner",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Ranged attacker using a crossbow. Patrol captains carry Ominous Banners. Killing a captain gives Bad Omen, triggering a raid if you enter a village.",
+      "weaknesses": [
+        "Shields",
+        "Melee rush"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.14",
+      "category": "hostile",
+      "notes": "Ominous Banner drops only from patrol captains. Patrol groups of 2-5 pillagers roam near villages."
+    },
+    {
+      "name": "Guardian",
+      "id": "guardian",
+      "type": "hostile",
+      "hp": 30,
+      "damage": {
+        "easy": 4,
+        "normal": 6,
+        "hard": 9
+      },
+      "xpDrop": {
+        "min": 10,
+        "max": 10
+      },
+      "spawnBiomes": [
+        "Ocean Monument"
+      ],
+      "spawnConditions": "Spawns in and around Ocean Monuments in water.",
+      "drops": [
+        {
+          "item": "Prismarine Shard",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Prismarine Crystals",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 33
+        },
+        {
+          "item": "Raw Cod",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 40
+        }
+      ],
+      "behavior": "Shoots laser beams that require charge-up time. Deals thorn damage to attackers. Inflicts Mining Fatigue via Elder Guardians nearby.",
+      "weaknesses": [
+        "Impaling enchantment",
+        "Axolotls (ally)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.8",
+      "category": "hostile",
+      "notes": "Laser beam takes 2 seconds to charge. Guardians flop on land and suffocate. Prismarine is used for conduits and sea lanterns."
+    },
+    {
+      "name": "Elder Guardian",
+      "id": "elder_guardian",
+      "type": "hostile",
+      "hp": 80,
+      "damage": {
+        "easy": 5,
+        "normal": 8,
+        "hard": 12
+      },
+      "xpDrop": {
+        "min": 10,
+        "max": 10
+      },
+      "spawnBiomes": [
+        "Ocean Monument"
+      ],
+      "spawnConditions": "Exactly 3 spawn per Ocean Monument during world generation. Do not respawn.",
+      "drops": [
+        {
+          "item": "Prismarine Shard",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Prismarine Crystals",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 33
+        },
+        {
+          "item": "Wet Sponge",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        },
+        {
+          "item": "Raw Cod",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 40
+        }
+      ],
+      "behavior": "Larger guardian variant. Inflicts Mining Fatigue III on nearby players every 60 seconds. Powerful laser attack.",
+      "weaknesses": [
+        "Impaling enchantment",
+        "Milk (removes Mining Fatigue)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.8",
+      "category": "hostile",
+      "notes": "Drops Wet Sponge on death. Mining Fatigue III makes mining nearly impossible. 3 Elder Guardians guard each Ocean Monument. Does not respawn."
+    },
+    {
+      "name": "Silverfish",
+      "id": "silverfish",
+      "type": "hostile",
+      "hp": 8,
+      "damage": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 1
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Stronghold",
+        "Mountains"
+      ],
+      "spawnConditions": "Spawns from monster spawners in Stronghold end portal rooms. Hides in Infested Stone variants in mountains and igloo basements.",
+      "drops": [],
+      "behavior": "Small and fast. When attacked, calls nearby silverfish from Infested Stone blocks. Swarms can be overwhelming.",
+      "weaknesses": [
+        "Bane of Arthropods enchantment",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "Beta 1.8",
+      "category": "hostile",
+      "notes": "Infested Stone blocks look identical to normal stone but break slightly faster and drop no items. Found in Strongholds and mountain biomes."
+    },
+    {
+      "name": "Endermite",
+      "id": "endermite",
+      "type": "hostile",
+      "hp": 8,
+      "damage": {
+        "easy": 2,
+        "normal": 2,
+        "hard": 3
+      },
+      "xpDrop": {
+        "min": 3,
+        "max": 3
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "5% chance to spawn when an Ender Pearl lands. Despawns after 2 minutes unless named.",
+      "drops": [],
+      "behavior": "Tiny hostile mob that attacks players. Endermen attack endermites on sight, making them useful for Enderman farms.",
+      "weaknesses": [
+        "Bane of Arthropods enchantment",
+        "All damage sources"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.8",
+      "category": "hostile",
+      "notes": "Essential for efficient Enderman XP farms. Name with a name tag to prevent despawning. Endermen prioritize attacking endermites over players."
+    },
+    {
+      "name": "Shulker",
+      "id": "shulker",
+      "type": "hostile",
+      "hp": 30,
+      "damage": {
+        "easy": 4,
+        "normal": 4,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "End Cities"
+      ],
+      "spawnConditions": "Spawns in End Cities on purpur blocks during world generation.",
+      "drops": [
+        {
+          "item": "Shulker Shell",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 50
+        }
+      ],
+      "behavior": "Hides in shell-like block, opens to shoot homing projectiles that inflict Levitation for 10 seconds. High armor when closed.",
+      "weaknesses": [
+        "Attack when shell is open",
+        "Arrows"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.9",
+      "category": "hostile",
+      "notes": "Shulker Shells craft Shulker Boxes, the most important storage item in the game. Shulkers can teleport and sometimes duplicate when hit by another shulker's projectile."
+    },
+    {
+      "name": "Breeze",
+      "id": "breeze",
+      "type": "hostile",
+      "hp": 30,
+      "damage": {
+        "easy": 3,
+        "normal": 5,
+        "hard": 7
+      },
+      "xpDrop": {
+        "min": 10,
+        "max": 10
+      },
+      "spawnBiomes": [
+        "Trial Chambers"
+      ],
+      "spawnConditions": "Spawns from Trial Spawners in Trial Chambers.",
+      "drops": [
+        {
+          "item": "Breeze Rod",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Wind-themed mob that shoots wind charge projectiles. Projectiles deal knockback and interact with certain blocks (buttons, levers, trapdoors). Jumps high to dodge.",
+      "weaknesses": [
+        "Arrows",
+        "Trident"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.21",
+      "category": "hostile",
+      "notes": "Breeze Rods craft Wind Charges for players and are used in crafting the Mace weapon and Flow armor trim."
+    },
+    {
+      "name": "Bogged",
+      "id": "bogged",
+      "type": "hostile",
+      "hp": 16,
+      "damage": {
+        "easy": 2,
+        "normal": 3,
+        "hard": 4
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Swamp",
+        "Mangrove Swamp",
+        "Trial Chambers"
+      ],
+      "spawnConditions": "Spawns in swamp biomes and from Trial Spawners in Trial Chambers.",
+      "drops": [
+        {
+          "item": "Bone",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        },
+        {
+          "item": "Arrow of Poison",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 50
+        },
+        {
+          "item": "Mushroom (Brown or Red)",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Skeleton variant covered in moss and mushrooms. Shoots Arrows of Poison. Burns in sunlight like regular skeletons.",
+      "weaknesses": [
+        "Sunlight",
+        "Smite enchantment",
+        "Shields"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.21",
+      "category": "hostile",
+      "notes": "Arrows of Poison inflict Poison I for 4 seconds. Can be sheared for mushrooms. One of the newer skeleton variants."
+    },
+    {
+      "name": "Warden",
+      "id": "warden",
+      "type": "hostile",
+      "hp": 500,
+      "damage": {
+        "easy": 16,
+        "normal": 30,
+        "hard": 45
+      },
+      "xpDrop": {
+        "min": 5,
+        "max": 5
+      },
+      "spawnBiomes": [
+        "Deep Dark"
+      ],
+      "spawnConditions": "Summoned when Sculk Shriekers are activated 3 times. Does not spawn naturally.",
+      "drops": [
+        {
+          "item": "Sculk Catalyst",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Blind but detects vibrations and smell. Sonic boom ranged attack bypasses armor and shields. Most powerful non-boss mob. Meant to be avoided, not fought.",
+      "weaknesses": [
+        "Sneaking (reduces detection)",
+        "Wool blocks (muffles vibrations)",
+        "Distractions (throwing items)"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.19",
+      "category": "hostile",
+      "notes": "Has 250 hearts (500 HP), more than any boss. Sonic boom attack deals 10 damage regardless of armor. Designed to be avoided, not killed. Drops only 5 XP intentionally."
+    },
+    {
+      "name": "Ender Dragon",
+      "id": "ender_dragon",
+      "type": "boss",
+      "hp": 200,
+      "damage": {
+        "easy": 6,
+        "normal": 10,
+        "hard": 15
+      },
+      "xpDrop": {
+        "min": 12000,
+        "max": 12000
+      },
+      "spawnBiomes": [
+        "The End"
+      ],
+      "spawnConditions": "One Ender Dragon spawns when the player first enters The End. Can be respawned by placing 4 End Crystals on the exit portal.",
+      "drops": [],
+      "behavior": "Flies around the central island, swooping to attack. Healed by End Crystals on obsidian pillars. Breath attack creates lingering damage. Destroys most blocks on contact.",
+      "weaknesses": [
+        "Destroy End Crystals first",
+        "Beds (explode in The End)",
+        "Arrows while perched",
+        "Melee when perched on portal"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.0.0",
+      "category": "boss",
+      "notes": "Defeating the first dragon drops 12,000 XP (the most in the game). Subsequent kills drop 500 XP. Spawns the exit portal and End Gateway. Dragon Egg appears on first kill only."
+    },
+    {
+      "name": "Wither",
+      "id": "wither",
+      "type": "boss",
+      "hp": 300,
+      "damage": {
+        "easy": 5,
+        "normal": 8,
+        "hard": 12
+      },
+      "xpDrop": {
+        "min": 50,
+        "max": 50
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Built by placing 4 Soul Sand or Soul Soil in a T-shape and placing 3 Wither Skeleton Skulls on top.",
+      "drops": [
+        {
+          "item": "Nether Star",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Shoots Wither Skulls that inflict Wither effect. Creates massive explosion upon spawning. Second phase (half HP): gains Wither Armor, immune to arrows, charges at players.",
+      "weaknesses": [
+        "Smite enchantment",
+        "Bedrock ceiling trap (Java)",
+        "Melee in second phase"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.4.2",
+      "category": "boss",
+      "notes": "Nether Star is used to craft a Beacon, one of the most powerful utility blocks. The Wither has 150 hearts (300 HP) and is one of the hardest fights. Destroys all blocks except bedrock, end portal frames, and barriers."
+    },
+    {
+      "name": "Cat",
+      "id": "cat",
+      "type": "passive",
+      "hp": 10,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Village",
+        "Swamp Hut"
+      ],
+      "spawnConditions": "Spawns in villages (1 cat per 4 beds, max 10 per village). Black cats also spawn in Swamp Huts.",
+      "drops": [
+        {
+          "item": "String",
+          "count": {
+            "min": 0,
+            "max": 2
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Stray cats are shy and run from players. Tamed cats follow their owner, sit on command, scare Creepers and Phantoms away, and bring morning gifts.",
+      "weaknesses": [
+        "Fire",
+        "Fall damage"
+      ],
+      "tameable": true,
+      "tamingMethod": "Slowly approach a stray cat while holding Raw Cod or Raw Salmon. Stay still and let the cat come to you. Each feeding has a 1/3 chance to tame.",
+      "breedable": true,
+      "breedingItem": "Raw Cod",
+      "versionAdded": "1.14",
+      "category": "passive",
+      "notes": "11 skin variants. Tamed cats bring morning gifts (string, feathers, phantom membrane, etc.) when the player sleeps. Creepers and Phantoms flee from cats."
+    },
+    {
+      "name": "Snow Golem",
+      "id": "snow_golem",
+      "type": "passive",
+      "hp": 4,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [],
+      "spawnConditions": "Does not spawn naturally. Built by placing 2 snow blocks vertically and a carved pumpkin on top.",
+      "drops": [
+        {
+          "item": "Snowball",
+          "count": {
+            "min": 0,
+            "max": 15
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Throws snowballs at hostile mobs (deals knockback but no damage, except to Blazes). Leaves a snow trail where it walks. Takes damage in hot biomes and rain.",
+      "weaknesses": [
+        "Water",
+        "Rain",
+        "Hot biomes",
+        "Fire"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.0.0",
+      "category": "passive",
+      "notes": "Shearing the pumpkin reveals a hidden face underneath. Snowballs deal 3 damage to Blazes. Useful for distracting mobs and creating snow farms."
+    },
+    {
+      "name": "Strider",
+      "id": "strider",
+      "type": "passive",
+      "hp": 20,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 1,
+        "max": 3
+      },
+      "spawnBiomes": [
+        "Nether (lava oceans)"
+      ],
+      "spawnConditions": "Spawns on lava surfaces in the Nether in groups of 2-4.",
+      "drops": [
+        {
+          "item": "String",
+          "count": {
+            "min": 2,
+            "max": 5
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Walks on lava. Can be saddled and ridden, steered with a Warped Fungus on a Stick. Shivers and turns purple when outside of lava.",
+      "weaknesses": [
+        "Water (damages them)",
+        "Rain"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": true,
+      "breedingItem": "Warped Fungus",
+      "versionAdded": "1.16",
+      "category": "passive",
+      "notes": "The only rideable mob in the Nether. Essential for traversing lava lakes safely. Baby striders sometimes spawn riding an adult."
+    },
+    {
+      "name": "Wandering Trader",
+      "id": "wandering_trader",
+      "type": "passive",
+      "hp": 20,
+      "damage": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "xpDrop": {
+        "min": 0,
+        "max": 0
+      },
+      "spawnBiomes": [
+        "All Overworld biomes"
+      ],
+      "spawnConditions": "Randomly spawns near the player with 2 Trader Llamas. Despawns after 40-60 minutes.",
+      "drops": [
+        {
+          "item": "Milk Bucket",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "chance": 100
+        }
+      ],
+      "behavior": "Offers random trades for emeralds, selling biome-specific items, flowers, saplings, and other resources. Drinks Invisibility potion at night.",
+      "weaknesses": [
+        "Fire",
+        "All damage sources"
+      ],
+      "tameable": false,
+      "tamingMethod": null,
+      "breedable": false,
+      "breedingItem": null,
+      "versionAdded": "1.14",
+      "category": "passive",
+      "notes": "Sells items that may be hard to find, like coral, packed ice, or rare saplings. Cannot restock trades. Despawns naturally with leashed llamas staying behind."
+    }
+  ]
+}
