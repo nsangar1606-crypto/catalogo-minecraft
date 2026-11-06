@@ -48,8 +48,8 @@ Proyecto de Lenguajes de Marcas: una web en español sobre los Mobs (criaturas) 
 ## Contenido del proyecto
 
 - [x] README con la API y la tabla de campos
-- [ ] carpeta `datos/` con los JSON descargados de la API
-- [ ] `index.html` (portada)
+- [x] carpeta `datos/` con los JSON descargados de la API
+- [x] `index.html` (portada)
 - [ ] `catalogo.html` (catálogo)
 - [ ] `fichas/` (3 fichas con la misma estructura)
 - [ ] `comparativa.html` (tabla comparando 8 criaturas)
