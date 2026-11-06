@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "name": "Ender Dragon",
+    "id": "ender_dragon",
+    "type": "boss",
+    "hp": 200,
+    "damage": {
+      "easy": 6,
+      "normal": 10,
+      "hard": 15
+    },
+    "xpDrop": {
+      "min": 12000,
+      "max": 12000
+    },
+    "spawnBiomes": [
+      "The End"
+    ],
+    "spawnConditions": "One Ender Dragon spawns when the player first enters The End. Can be respawned by placing 4 End Crystals on the exit portal.",
+    "drops": [],
+    "behavior": "Flies around the central island, swooping to attack. Healed by End Crystals on obsidian pillars. Breath attack creates lingering damage. Destroys most blocks on contact.",
+    "weaknesses": [
+      "Destroy End Crystals first",
+      "Beds (explode in The End)",
+      "Arrows while perched",
+      "Melee when perched on portal"
+    ],
+    "tameable": false,
+    "tamingMethod": null,
+    "breedable": false,
+    "breedingItem": null,
+    "versionAdded": "1.0.0",
+    "category": "boss",
+    "notes": "Defeating the first dragon drops 12,000 XP (the most in the game). Subsequent kills drop 500 XP. Spawns the exit portal and End Gateway. Dragon Egg appears on first kill only."
+  }
+}
