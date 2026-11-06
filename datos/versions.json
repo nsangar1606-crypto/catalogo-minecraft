@@ -1,0 +1,1011 @@
+{
+  "success": true,
+  "count": 36,
+  "data": [
+    {
+      "slug": "1-0",
+      "name": "1.0",
+      "edition": "java",
+      "releaseDate": "2011-11-18",
+      "type": "major-release",
+      "updateName": "Official Release",
+      "majorFeatures": [
+        "The End dimension and Ender Dragon boss fight",
+        "Enchanting system with enchantment tables",
+        "Brewing system with potions",
+        "The End portal and strongholds",
+        "Endermen fully implemented",
+        "Mooshrooms and Mushroom Islands biome",
+        "Villager NPCs",
+        "Snow Golems",
+        "Nether Fortresses with Blaze spawners"
+      ],
+      "notableChanges": [
+        "Game officially left beta status",
+        "Added experience points system",
+        "Hardcore mode added",
+        "Breeding mechanics for animals"
+      ],
+      "notableFixes": [
+        "Major performance improvements over Beta",
+        "Lighting engine improvements"
+      ],
+      "previousVersion": null,
+      "nextVersion": "1-1"
+    },
+    {
+      "slug": "1-1",
+      "name": "1.1",
+      "edition": "java",
+      "releaseDate": "2012-01-12",
+      "type": "major-release",
+      "updateName": "1.1 Update",
+      "majorFeatures": [
+        "56 new language translations",
+        "Spawn eggs in Creative mode",
+        "Superflat world type",
+        "Beach and Jungle biomes (partially)"
+      ],
+      "notableChanges": [
+        "Bow enchantments added",
+        "Golden Apple recipe changed",
+        "Ladder hitbox updated"
+      ],
+      "notableFixes": [
+        "Fixed various crash bugs",
+        "Fixed lighting glitches"
+      ],
+      "previousVersion": "1-0",
+      "nextVersion": "1-2"
+    },
+    {
+      "slug": "1-2",
+      "name": "1.2",
+      "edition": "java",
+      "releaseDate": "2012-03-01",
+      "type": "major-release",
+      "updateName": "1.2 Update",
+      "majorFeatures": [
+        "Jungle biome with jungle trees and ocelots",
+        "Iron Golems",
+        "Cats (tamed ocelots)",
+        "Redstone Lamps",
+        "New AI for mobs",
+        "Zombie sieges on villages",
+        "Fire charge item"
+      ],
+      "notableChanges": [
+        "New world height limit of 256 blocks (up from 128)",
+        "Desert villages and desert wells",
+        "Zombies can break down wooden doors"
+      ],
+      "notableFixes": [
+        "Improved chunk loading",
+        "Fixed various mob pathfinding issues"
+      ],
+      "previousVersion": "1-1",
+      "nextVersion": "1-3"
+    },
+    {
+      "slug": "1-3",
+      "name": "1.3",
+      "edition": "java",
+      "releaseDate": "2012-08-01",
+      "type": "major-release",
+      "updateName": "1.3 Update",
+      "majorFeatures": [
+        "Trading with Villagers",
+        "Adventure mode",
+        "Emeralds and Emerald Ore",
+        "Ender Chests",
+        "Tripwire Hooks and tripwire",
+        "Written Books",
+        "Cocoa Beans as a crop",
+        "Sandstone stairs"
+      ],
+      "notableChanges": [
+        "Singleplayer is now a local server internally",
+        "Added LAN multiplayer support",
+        "Bonus chest option for new worlds",
+        "Desert temples and jungle temples added"
+      ],
+      "notableFixes": [
+        "Improved world generation performance",
+        "Fixed various trading exploits"
+      ],
+      "previousVersion": "1-2",
+      "nextVersion": "1-4"
+    },
+    {
+      "slug": "1-4",
+      "name": "1.4",
+      "edition": "java",
+      "releaseDate": "2012-10-25",
+      "type": "major-release",
+      "updateName": "Pretty Scary Update",
+      "majorFeatures": [
+        "Wither boss and Wither Skeletons",
+        "Beacons",
+        "Anvils for repairing and renaming items",
+        "Flower Pots",
+        "Item Frames",
+        "Carrots, Potatoes, and Pumpkin Pie",
+        "Bats",
+        "Witches",
+        "Command blocks",
+        "Heads and skulls as decoration"
+      ],
+      "notableChanges": [
+        "Night vision and invisibility potions",
+        "New death messages",
+        "Zombies can pick up and wear armor",
+        "Difficulty lock per world"
+      ],
+      "notableFixes": [
+        "Fixed several duplication glitches",
+        "Improved mob spawning mechanics"
+      ],
+      "previousVersion": "1-3",
+      "nextVersion": "1-5"
+    },
+    {
+      "slug": "1-5",
+      "name": "1.5",
+      "edition": "java",
+      "releaseDate": "2013-03-13",
+      "type": "major-release",
+      "updateName": "Redstone Update",
+      "majorFeatures": [
+        "Redstone Comparators",
+        "Hoppers",
+        "Dropper block",
+        "Trapped Chests",
+        "Daylight Sensors",
+        "Weighted Pressure Plates",
+        "Redstone Blocks",
+        "Nether Quartz and Quartz blocks",
+        "TNT Minecarts and Hopper Minecarts",
+        "Activator Rails"
+      ],
+      "notableChanges": [
+        "Inventory management improvements",
+        "Scoreboard system added",
+        "Texture packs replaced by resource packs",
+        "Death screen shows score"
+      ],
+      "notableFixes": [
+        "Fixed lighting engine bugs",
+        "Fixed many redstone-related crashes"
+      ],
+      "previousVersion": "1-4",
+      "nextVersion": "1-6"
+    },
+    {
+      "slug": "1-6",
+      "name": "1.6",
+      "edition": "java",
+      "releaseDate": "2013-07-01",
+      "type": "major-release",
+      "updateName": "Horse Update",
+      "majorFeatures": [
+        "Horses, Donkeys, and Mules",
+        "Horse armor and saddle mechanics",
+        "Leads (leashes) and Name Tags",
+        "Carpets",
+        "Hardened Clay and Stained Clay",
+        "Resource Pack system (replacing texture packs)",
+        "Coal blocks",
+        "Hay Bales"
+      ],
+      "notableChanges": [
+        "New Minecraft launcher",
+        "Health boost and absorption effects",
+        "Removed Herobrine (changelog meme)"
+      ],
+      "notableFixes": [
+        "Fixed entity collision issues",
+        "Fixed various rendering bugs"
+      ],
+      "previousVersion": "1-5",
+      "nextVersion": "1-7"
+    },
+    {
+      "slug": "1-7",
+      "name": "1.7",
+      "edition": "java",
+      "releaseDate": "2013-10-25",
+      "type": "major-release",
+      "updateName": "The Update that Changed the World",
+      "majorFeatures": [
+        "Massive biome overhaul with many new biomes",
+        "Amplified world type",
+        "New flowers (Sunflower, Lilac, Rose Bush, Peony, etc.)",
+        "Stained Glass and Stained Glass Panes",
+        "Packed Ice",
+        "Podzol block",
+        "Red Sand",
+        "New fish types (Salmon, Clownfish, Pufferfish)",
+        "Command /summon and /achievement",
+        "Acacia and Dark Oak wood types"
+      ],
+      "notableChanges": [
+        "World generation completely overhauled",
+        "New server list with icons",
+        "Fishing reworked with treasure and junk categories"
+      ],
+      "notableFixes": [
+        "Major performance improvements",
+        "Fixed numerous world generation bugs"
+      ],
+      "previousVersion": "1-6",
+      "nextVersion": "1-8"
+    },
+    {
+      "slug": "1-8",
+      "name": "1.8",
+      "edition": "java",
+      "releaseDate": "2014-09-02",
+      "type": "major-release",
+      "updateName": "Bountiful Update",
+      "majorFeatures": [
+        "Ocean Monuments and Guardians/Elder Guardians",
+        "Prismarine, Sea Lanterns, and Sponge",
+        "Banners",
+        "Armor Stands",
+        "Rabbits",
+        "Endermites",
+        "Slime blocks",
+        "Red Sandstone",
+        "Coarse Dirt",
+        "Spectator Mode",
+        "Customized world type"
+      ],
+      "notableChanges": [
+        "Enchanting system reworked to require Lapis Lazuli",
+        "Villager trading overhauled",
+        "Doors stack to 64",
+        "Rendering engine rewritten for performance"
+      ],
+      "notableFixes": [
+        "Major rendering performance improvements",
+        "Fixed many X-ray glitches"
+      ],
+      "previousVersion": "1-7",
+      "nextVersion": "1-9"
+    },
+    {
+      "slug": "1-9",
+      "name": "1.9",
+      "edition": "java",
+      "releaseDate": "2016-02-29",
+      "type": "major-release",
+      "updateName": "Combat Update",
+      "majorFeatures": [
+        "Dual-wielding and off-hand slot",
+        "Attack cooldown and sweep attacks",
+        "Shields replaced sword blocking",
+        "End Cities and End Ships",
+        "Elytra wings for gliding",
+        "Shulkers",
+        "Chorus Plants and Chorus Fruit",
+        "Lingering Potions and tipped arrows",
+        "Igloos",
+        "Dragon's Breath",
+        "Ender Dragon fight reworked and repeatable"
+      ],
+      "notableChanges": [
+        "End dimension completely overhauled",
+        "New sounds and subtitles",
+        "Skeleton AI reworked",
+        "Arrows of effects with tipped arrows"
+      ],
+      "notableFixes": [
+        "Fixed many combat-related bugs",
+        "Fixed End-related world generation issues"
+      ],
+      "previousVersion": "1-8",
+      "nextVersion": "1-10"
+    },
+    {
+      "slug": "1-10",
+      "name": "1.10",
+      "edition": "java",
+      "releaseDate": "2016-06-08",
+      "type": "major-release",
+      "updateName": "Frostburn Update",
+      "majorFeatures": [
+        "Polar Bears",
+        "Husks (desert zombie variant)",
+        "Strays (cold skeleton variant)",
+        "Magma Blocks",
+        "Nether Wart Block and Red Nether Bricks",
+        "Bone Blocks",
+        "Structure Blocks for survival use",
+        "Fossils in desert and swamp biomes",
+        "Auto-jump feature"
+      ],
+      "notableChanges": [
+        "Endermen can now spawn in the Nether",
+        "Nether portals can send players to alternate coordinates"
+      ],
+      "notableFixes": [
+        "Fixed various entity interaction bugs",
+        "Performance improvements"
+      ],
+      "previousVersion": "1-9",
+      "nextVersion": "1-11"
+    },
+    {
+      "slug": "1-11",
+      "name": "1.11",
+      "edition": "java",
+      "releaseDate": "2016-11-14",
+      "type": "major-release",
+      "updateName": "Exploration Update",
+      "majorFeatures": [
+        "Woodland Mansions",
+        "Vindicators and Evokers (Illagers)",
+        "Vexes summoned by Evokers",
+        "Llamas with caravan mechanics",
+        "Shulker Boxes for portable storage",
+        "Observer block",
+        "Totems of Undying",
+        "Exploration Maps from Cartographer villagers",
+        "Curse enchantments (Vanishing, Binding)"
+      ],
+      "notableChanges": [
+        "Entity IDs changed to namespaced format",
+        "Brewing stand requires Blaze Powder as fuel"
+      ],
+      "notableFixes": [
+        "Fixed hopper item transfer bugs",
+        "Fixed several chunk loading issues"
+      ],
+      "previousVersion": "1-10",
+      "nextVersion": "1-12"
+    },
+    {
+      "slug": "1-12",
+      "name": "1.12",
+      "edition": "java",
+      "releaseDate": "2017-06-07",
+      "type": "major-release",
+      "updateName": "World of Color Update",
+      "majorFeatures": [
+        "Concrete and Concrete Powder in 16 colors",
+        "Glazed Terracotta in 16 patterns",
+        "Parrots",
+        "Illusioners (unused Illager mob)",
+        "Advancements system replacing achievements",
+        "Knowledge Book item",
+        "Recipe Book for crafting",
+        "Narrator for accessibility",
+        "New function system for commands"
+      ],
+      "notableChanges": [
+        "Renamed many items for consistency",
+        "Crafting helper / recipe book added",
+        "Iron nuggets added"
+      ],
+      "notableFixes": [
+        "Fixed numerous achievement/advancement bugs",
+        "Fixed various rendering issues"
+      ],
+      "previousVersion": "1-11",
+      "nextVersion": "1-13"
+    },
+    {
+      "slug": "1-13",
+      "name": "1.13",
+      "edition": "java",
+      "releaseDate": "2018-07-18",
+      "type": "major-release",
+      "updateName": "Update Aquatic",
+      "majorFeatures": [
+        "Complete ocean overhaul with coral reefs",
+        "Dolphins, Turtles, and sea turtle eggs",
+        "Fish mobs (Cod, Salmon, Pufferfish, Tropical Fish)",
+        "Tridents with Riptide, Loyalty, and Channeling",
+        "Drowned (underwater zombie variant)",
+        "Shipwrecks and buried treasure",
+        "Underwater ruins",
+        "Conduit for underwater breathing",
+        "Kelp, Seagrass, and Sea Pickles",
+        "Phantom mob (voted by community)",
+        "Swimming animation update",
+        "Heart of the Sea and Nautilus Shells"
+      ],
+      "notableChanges": [
+        "Commands completely reworked and modernized",
+        "Block IDs replaced entirely by namespaced IDs",
+        "Water physics overhauled (waterlogging)",
+        "Debug stick added for mapmakers"
+      ],
+      "notableFixes": [
+        "Massive internal data format changes (Flattening)",
+        "Fixed hundreds of legacy bugs"
+      ],
+      "previousVersion": "1-12",
+      "nextVersion": "1-14"
+    },
+    {
+      "slug": "1-14",
+      "name": "1.14",
+      "edition": "java",
+      "releaseDate": "2019-04-23",
+      "type": "major-release",
+      "updateName": "Village & Pillage",
+      "majorFeatures": [
+        "Complete village overhaul with biome-specific architecture",
+        "Villager profession and trading system rework",
+        "Pillager Outposts",
+        "Raids triggered by Bad Omen effect",
+        "Ravagers (Illager beasts)",
+        "Bamboo and Scaffolding",
+        "Crossbows",
+        "Campfires",
+        "Lecterns with writable books",
+        "Barrels, Blast Furnaces, Smokers, Grindstones, Stonecutters",
+        "Composters, Fletching Tables, Cartography Tables",
+        "Lanterns",
+        "Loom for banner patterns",
+        "Suspicious Stew",
+        "Foxes",
+        "Wandering Trader",
+        "Sweet Berries"
+      ],
+      "notableChanges": [
+        "New texture pack by JAPPA (all textures updated)",
+        "Added accessibility settings",
+        "New lighting engine"
+      ],
+      "notableFixes": [
+        "Fixed many village-related bugs",
+        "Performance improvements for large worlds"
+      ],
+      "previousVersion": "1-13",
+      "nextVersion": "1-15"
+    },
+    {
+      "slug": "1-15",
+      "name": "1.15",
+      "edition": "java",
+      "releaseDate": "2019-12-10",
+      "type": "major-release",
+      "updateName": "Buzzy Bees",
+      "majorFeatures": [
+        "Bees and beehives/bee nests",
+        "Honey Blocks with unique redstone properties",
+        "Honeycomb and Honeycomb Blocks",
+        "Honey Bottles as food and for crafting"
+      ],
+      "notableChanges": [
+        "Major performance and bug fix focus",
+        "Rendering engine improvements",
+        "Iron Golem spawn rate changes"
+      ],
+      "notableFixes": [
+        "Fixed over 500 bugs",
+        "Major rendering optimizations",
+        "Fixed many longstanding issues with chunk loading"
+      ],
+      "previousVersion": "1-14",
+      "nextVersion": "1-16"
+    },
+    {
+      "slug": "1-16",
+      "name": "1.16",
+      "edition": "java",
+      "releaseDate": "2020-06-23",
+      "type": "major-release",
+      "updateName": "Nether Update",
+      "majorFeatures": [
+        "Complete Nether overhaul with new biomes",
+        "Crimson Forest and Warped Forest biomes",
+        "Soul Sand Valley and Basalt Deltas biomes",
+        "Piglins with bartering mechanics",
+        "Hoglins as Nether food source",
+        "Striders for lava traversal",
+        "Netherite (strongest material, fire-resistant)",
+        "Bastion Remnants",
+        "Ruined Portals",
+        "Target blocks",
+        "Respawn Anchors for Nether respawning",
+        "Crying Obsidian",
+        "Blackstone and its variants",
+        "Soul Fire and Soul Torches/Lanterns",
+        "Lodestone for compass linking",
+        "Chains"
+      ],
+      "notableChanges": [
+        "Custom world generation support",
+        "Zoglins (zombified Hoglins)",
+        "Piglin Brutes in bastions",
+        "Zombified Piglins renamed from Zombie Pigmen"
+      ],
+      "notableFixes": [
+        "Fixed many Nether-related bugs",
+        "Improved biome blending"
+      ],
+      "previousVersion": "1-15",
+      "nextVersion": "1-17"
+    },
+    {
+      "slug": "1-17",
+      "name": "1.17",
+      "edition": "java",
+      "releaseDate": "2021-06-08",
+      "type": "major-release",
+      "updateName": "Caves & Cliffs Part 1",
+      "majorFeatures": [
+        "Copper ore and copper blocks with oxidation",
+        "Amethyst Geodes and spyglass",
+        "Axolotls",
+        "Glow Squids and Glow Ink Sacs",
+        "Goats with ram attack",
+        "Powder Snow with freezing mechanic",
+        "Candles",
+        "Lightning Rods",
+        "Dripstone and Pointed Dripstone",
+        "Deepslate blocks",
+        "Tinted Glass",
+        "Glow Berries and Glow Lichen",
+        "Raw ore items (Raw Iron, Raw Gold, Raw Copper)",
+        "Moss Blocks and Azalea",
+        "Dripleaf plants",
+        "Bundles (experimental)",
+        "Sculk Sensor (experimental)"
+      ],
+      "notableChanges": [
+        "Cave generation changes deferred to 1.18",
+        "Renewable dripstone mechanic",
+        "Shulkers can now duplicate"
+      ],
+      "notableFixes": [
+        "Fixed various rendering issues",
+        "Fixed many cave generation bugs"
+      ],
+      "previousVersion": "1-16",
+      "nextVersion": "1-18"
+    },
+    {
+      "slug": "1-18",
+      "name": "1.18",
+      "edition": "java",
+      "releaseDate": "2021-11-30",
+      "type": "major-release",
+      "updateName": "Caves & Cliffs Part 2",
+      "majorFeatures": [
+        "World height extended from Y=0-256 to Y=-64 to Y=320",
+        "Massive cave generation overhaul",
+        "Cheese caves, spaghetti caves, and noodle caves",
+        "Aquifers generating underground water and lava lakes",
+        "Noise-based cave generation",
+        "New mountain generation with peaks and meadows",
+        "Lush Caves biome underground",
+        "Dripstone Caves biome underground",
+        "New ore distribution system",
+        "Stony Peaks, Jagged Peaks, Frozen Peaks biomes",
+        "Meadow and Grove biomes",
+        "Snowy Slopes biome",
+        "Music by Lena Raine and others"
+      ],
+      "notableChanges": [
+        "Bedrock layer replaced with Deepslate gradient",
+        "Biome blending significantly improved",
+        "World upgrade system for old worlds",
+        "Mob spawning changes (needs complete darkness)"
+      ],
+      "notableFixes": [
+        "Fixed many world generation edge cases",
+        "Improved performance for new terrain generation"
+      ],
+      "previousVersion": "1-17",
+      "nextVersion": "1-19"
+    },
+    {
+      "slug": "1-19",
+      "name": "1.19",
+      "edition": "java",
+      "releaseDate": "2022-06-07",
+      "type": "major-release",
+      "updateName": "The Wild Update",
+      "majorFeatures": [
+        "Deep Dark biome and Ancient Cities",
+        "Warden mob (most powerful hostile mob)",
+        "Sculk blocks (Sculk, Sculk Catalyst, Sculk Shrieker, Sculk Vein)",
+        "Mangrove Swamp biome with Mangrove trees",
+        "Mud and Mud Bricks",
+        "Frogs (Temperate, Warm, Cold variants)",
+        "Tadpoles",
+        "Froglight blocks (three colors)",
+        "Allays (won mob vote)",
+        "Recovery Compass",
+        "Echo Shards",
+        "Swift Sneak enchantment",
+        "Darkness effect",
+        "Boat with Chest"
+      ],
+      "notableChanges": [
+        "Chat reporting system added",
+        "Chat signatures for message verification",
+        "Fireflies removed (originally planned)"
+      ],
+      "notableFixes": [
+        "Fixed sculk-related bugs",
+        "Fixed Deep Dark generation issues"
+      ],
+      "previousVersion": "1-18",
+      "nextVersion": "1-19-1"
+    },
+    {
+      "slug": "1-19-1",
+      "name": "1.19.1",
+      "edition": "java",
+      "releaseDate": "2022-07-27",
+      "type": "minor-release",
+      "updateName": "1.19.1 Update",
+      "majorFeatures": [
+        "Allay duplication via jukeboxes"
+      ],
+      "notableChanges": [
+        "Chat reporting system finalized",
+        "Player chat signing and verification system"
+      ],
+      "notableFixes": [
+        "Fixed chat report edge cases",
+        "Fixed allay pathfinding issues"
+      ],
+      "previousVersion": "1-19",
+      "nextVersion": "1-19-2"
+    },
+    {
+      "slug": "1-19-2",
+      "name": "1.19.2",
+      "edition": "java",
+      "releaseDate": "2022-08-05",
+      "type": "minor-release",
+      "updateName": "1.19.2 Update",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Chat reporting improvements and fixes",
+        "Secure chat enforcement updates"
+      ],
+      "notableFixes": [
+        "Fixed critical chat report bugs",
+        "Fixed disconnection issues with chat signing"
+      ],
+      "previousVersion": "1-19-1",
+      "nextVersion": "1-19-3"
+    },
+    {
+      "slug": "1-19-3",
+      "name": "1.19.3",
+      "edition": "java",
+      "releaseDate": "2022-12-07",
+      "type": "minor-release",
+      "updateName": "1.19.3 Update",
+      "majorFeatures": [
+        "Vex design overhaul",
+        "Creative inventory reorganization",
+        "Experimental features toggle system"
+      ],
+      "notableChanges": [
+        "Spawning mechanics updated for better mob distribution",
+        "Chat reporting system refined"
+      ],
+      "notableFixes": [
+        "Many performance improvements",
+        "Fixed various Creative mode issues"
+      ],
+      "previousVersion": "1-19-2",
+      "nextVersion": "1-19-4"
+    },
+    {
+      "slug": "1-19-4",
+      "name": "1.19.4",
+      "edition": "java",
+      "releaseDate": "2023-03-14",
+      "type": "minor-release",
+      "updateName": "1.19.4 Update",
+      "majorFeatures": [
+        "Decorated Pots (preview)",
+        "Damage types and tags system",
+        "Horse armor can be dyed",
+        "Potions of Resistance"
+      ],
+      "notableChanges": [
+        "Accessibility improvements with new accessibility onboarding",
+        "Jukeboxes emit Redstone signal",
+        "New sounds for various blocks"
+      ],
+      "notableFixes": [
+        "Fixed many accessibility-related bugs",
+        "Fixed various rendering issues"
+      ],
+      "previousVersion": "1-19-3",
+      "nextVersion": "1-20"
+    },
+    {
+      "slug": "1-20",
+      "name": "1.20",
+      "edition": "java",
+      "releaseDate": "2023-06-07",
+      "type": "major-release",
+      "updateName": "Trails & Tales",
+      "majorFeatures": [
+        "Archaeology system with Brush and Suspicious Sand/Gravel",
+        "Decorated Pots from pottery sherds",
+        "Cherry Grove biome with Cherry Blossom trees",
+        "Armor Trims for cosmetic armor customization",
+        "Sniffer mob (won mob vote) with Torchflower and Pitcher Plant",
+        "Camels with two-player riding",
+        "Bamboo Wood set and Bamboo Raft",
+        "Hanging Signs",
+        "Chiseled Bookshelves",
+        "Calibrated Sculk Sensors",
+        "New music by Aaron Cherof",
+        "Playable mob sounds with Mob Heads on Note Blocks"
+      ],
+      "notableChanges": [
+        "Sign text editing without breaking",
+        "Signs can be waxed with Honeycomb",
+        "Smithing Table reworked for Armor Trims",
+        "New advancements added"
+      ],
+      "notableFixes": [
+        "Fixed archaeology-related bugs",
+        "Fixed many sniffer pathfinding issues"
+      ],
+      "previousVersion": "1-19-4",
+      "nextVersion": "1-20-1"
+    },
+    {
+      "slug": "1-20-1",
+      "name": "1.20.1",
+      "edition": "java",
+      "releaseDate": "2023-06-12",
+      "type": "minor-release",
+      "updateName": "1.20.1 Hotfix",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Stability improvements for 1.20 release"
+      ],
+      "notableFixes": [
+        "Fixed critical server crash bugs",
+        "Fixed various item duplication glitches"
+      ],
+      "previousVersion": "1-20",
+      "nextVersion": "1-20-2"
+    },
+    {
+      "slug": "1-20-2",
+      "name": "1.20.2",
+      "edition": "java",
+      "releaseDate": "2023-09-21",
+      "type": "minor-release",
+      "updateName": "1.20.2 Update",
+      "majorFeatures": [
+        "Villager trade rebalance (experimental)",
+        "Diamond ore in larger veins near bedrock (experimental)"
+      ],
+      "notableChanges": [
+        "Name Tag changes with interaction improvements",
+        "Shield improvements",
+        "Network protocol optimization"
+      ],
+      "notableFixes": [
+        "Fixed various trading bugs",
+        "Fixed network connectivity issues"
+      ],
+      "previousVersion": "1-20-1",
+      "nextVersion": "1-20-3"
+    },
+    {
+      "slug": "1-20-3",
+      "name": "1.20.3",
+      "edition": "java",
+      "releaseDate": "2023-12-05",
+      "type": "minor-release",
+      "updateName": "1.20.3 Update",
+      "majorFeatures": [
+        "Decorated Pots can now store a single item stack",
+        "Copper and Tuff block families (experimental)",
+        "Breeze mob (experimental)",
+        "Trial Chambers (experimental)"
+      ],
+      "notableChanges": [
+        "Bat model and texture updated",
+        "Tick command added for controlling game ticks",
+        "New experimental features for 1.21"
+      ],
+      "notableFixes": [
+        "Fixed many decorated pot interaction bugs",
+        "Fixed various experimental feature issues"
+      ],
+      "previousVersion": "1-20-2",
+      "nextVersion": "1-20-4"
+    },
+    {
+      "slug": "1-20-4",
+      "name": "1.20.4",
+      "edition": "java",
+      "releaseDate": "2023-12-07",
+      "type": "minor-release",
+      "updateName": "1.20.4 Hotfix",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Hotfix for critical issues in 1.20.3"
+      ],
+      "notableFixes": [
+        "Fixed critical crashes introduced in 1.20.3",
+        "Fixed item loss bugs"
+      ],
+      "previousVersion": "1-20-3",
+      "nextVersion": "1-20-5"
+    },
+    {
+      "slug": "1-20-5",
+      "name": "1.20.5",
+      "edition": "java",
+      "releaseDate": "2024-04-23",
+      "type": "minor-release",
+      "updateName": "Armored Paws",
+      "majorFeatures": [
+        "Armadillo mob and Wolf Armor",
+        "Wolf variants (9 biome-specific wolf types)"
+      ],
+      "notableChanges": [
+        "Item component system replacing NBT data on items",
+        "Over 100 data-driven changes to item format",
+        "Transfer command for server transfers"
+      ],
+      "notableFixes": [
+        "Fixed many NBT-to-component migration issues",
+        "Fixed wolf-related pathfinding bugs"
+      ],
+      "previousVersion": "1-20-4",
+      "nextVersion": "1-20-6"
+    },
+    {
+      "slug": "1-20-6",
+      "name": "1.20.6",
+      "edition": "java",
+      "releaseDate": "2024-04-29",
+      "type": "minor-release",
+      "updateName": "1.20.6 Hotfix",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Stability fixes following 1.20.5 component changes"
+      ],
+      "notableFixes": [
+        "Fixed item component data issues",
+        "Fixed various server crashes"
+      ],
+      "previousVersion": "1-20-5",
+      "nextVersion": "1-21"
+    },
+    {
+      "slug": "1-21",
+      "name": "1.21",
+      "edition": "java",
+      "releaseDate": "2024-06-13",
+      "type": "major-release",
+      "updateName": "Tricky Trials",
+      "majorFeatures": [
+        "Trial Chambers (underground structures)",
+        "Breeze mob with wind charge attacks",
+        "Trial Spawners with scaling difficulty",
+        "Vault blocks with loot rewards",
+        "Mace weapon with smash attack",
+        "Wind Charge as throwable projectile",
+        "Ominous Trials (harder variant of Trial Chambers)",
+        "Ominous Bottle and Bad Omen rework",
+        "Heavy Core block (crafting component for Mace)",
+        "Flow and Gust banner patterns",
+        "Trial Explorer Map from Cartographers",
+        "Copper Bulb light source",
+        "Copper Door, Trapdoor, and Grate",
+        "Tuff Stairs, Slabs, Walls, and family",
+        "Crafter block for automated crafting",
+        "New music disc and paintings"
+      ],
+      "notableChanges": [
+        "Ominous events system redesign",
+        "Enchantments: Density, Breach, Wind Burst added",
+        "Potion effects reworked for Ominous Trials"
+      ],
+      "notableFixes": [
+        "Fixed trial chamber generation edge cases",
+        "Fixed breeze AI pathfinding issues"
+      ],
+      "previousVersion": "1-20-6",
+      "nextVersion": "1-21-1"
+    },
+    {
+      "slug": "1-21-1",
+      "name": "1.21.1",
+      "edition": "java",
+      "releaseDate": "2024-08-08",
+      "type": "minor-release",
+      "updateName": "1.21.1 Hotfix",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Stability and security improvements"
+      ],
+      "notableFixes": [
+        "Fixed critical server crash bugs",
+        "Fixed various exploit vulnerabilities"
+      ],
+      "previousVersion": "1-21",
+      "nextVersion": "1-21-2"
+    },
+    {
+      "slug": "1-21-2",
+      "name": "1.21.2",
+      "edition": "java",
+      "releaseDate": "2024-11-26",
+      "type": "minor-release",
+      "updateName": "Bundles of Bravery",
+      "majorFeatures": [
+        "Bundles officially released (previously experimental)",
+        "Pale Garden biome",
+        "Pale Oak wood type",
+        "Creaking mob (hostile tree entity)",
+        "Creaking Heart block",
+        "Eyeblossoms (open at night)",
+        "Resin blocks and Resin Bricks"
+      ],
+      "notableChanges": [
+        "Hardcore mode improvements",
+        "Redstone signal changes for various blocks"
+      ],
+      "notableFixes": [
+        "Fixed bundle-related inventory bugs",
+        "Fixed pale garden generation issues"
+      ],
+      "previousVersion": "1-21-1",
+      "nextVersion": "1-21-3"
+    },
+    {
+      "slug": "1-21-3",
+      "name": "1.21.3",
+      "edition": "java",
+      "releaseDate": "2024-12-03",
+      "type": "minor-release",
+      "updateName": "1.21.3 Hotfix",
+      "majorFeatures": [],
+      "notableChanges": [
+        "Stability improvements for 1.21.2 features"
+      ],
+      "notableFixes": [
+        "Fixed Creaking mob behavior bugs",
+        "Fixed Pale Garden biome generation issues"
+      ],
+      "previousVersion": "1-21-2",
+      "nextVersion": "1-21-4"
+    },
+    {
+      "slug": "1-21-4",
+      "name": "1.21.4",
+      "edition": "java",
+      "releaseDate": "2024-12-03",
+      "type": "minor-release",
+      "updateName": "Winter Drop",
+      "majorFeatures": [
+        "Pale Garden biome refinements",
+        "New ambient particle effects"
+      ],
+      "notableChanges": [
+        "Rendering engine optimizations",
+        "Entity rendering improvements"
+      ],
+      "notableFixes": [
+        "Fixed various rendering bugs",
+        "Fixed mob spawning in Pale Garden"
+      ],
+      "previousVersion": "1-21-3",
+      "nextVersion": null
+    }
+  ]
+}
