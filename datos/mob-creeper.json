@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "data": {
+    "name": "Creeper",
+    "id": "creeper",
+    "type": "hostile",
+    "hp": 20,
+    "damage": {
+      "easy": 22,
+      "normal": 43,
+      "hard": 64
+    },
+    "xpDrop": {
+      "min": 5,
+      "max": 5
+    },
+    "spawnBiomes": [
+      "All Overworld biomes"
+    ],
+    "spawnConditions": "Spawns at light level 0 on solid blocks in the Overworld.",
+    "drops": [
+      {
+        "item": "Gunpowder",
+        "count": {
+          "min": 0,
+          "max": 2
+        },
+        "chance": 100
+      },
+      {
+        "item": "Music Disc",
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "chance": 100
+      }
+    ],
+    "behavior": "Silently approaches players and detonates after a 1.5s fuse. Explosion destroys blocks. Charged creepers (struck by lightning) have double explosion power.",
+    "weaknesses": [
+      "Cats and ocelots (flees from them)",
+      "Shields",
+      "Knockback"
+    ],
+    "tameable": false,
+    "tamingMethod": null,
+    "breedable": false,
+    "breedingItem": null,
+    "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+    "category": "hostile",
+    "notes": "Music Discs drop only when killed by a skeleton or stray arrow. Charged creepers kill another mob to drop its head. Iconic Minecraft mob created from a modeling error."
+  }
+}
