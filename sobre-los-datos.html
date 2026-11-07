@@ -43,6 +43,85 @@
             <li><a href="https://api.astroworldmc.com/api/v1/mobs/ender-dragon">GET /api/v1/mobs/ender-dragon</a> La ficha del ender dragon</li>
             <li><a href="https://api.astroworldmc.com/api/v1/versions">GET /api/v1/versions</a> Fechas de lanzamiento de cada versión del juego.</li>
         </ul>
+
+        <h2>De JSON a HTML: cómo he construido este sitio </h2>
+        <p>Guardo las respuestas reales de la API en la carpeta datos/… aquí se ve un fragmento real junto al HTML del que nace parte de la ficha del Creeper.</p>
+<pre><code>{
+  "success": true,
+  "data": {
+    "name": "Creeper",
+    "id": "creeper",
+    "type": "hostile",
+    "hp": 20,
+    "damage": {
+      "easy": 22,
+      "normal": 43,
+      "hard": 64
+    },
+    "xpDrop": {
+      "min": 5,
+      "max": 5
+    },
+    "spawnBiomes": [
+      "All Overworld biomes"
+    ],
+    "spawnConditions": "Spawns at light level 0 on solid blocks in the Overworld.",
+    "drops": [
+      {
+        "item": "Gunpowder",
+        "count": {
+          "min": 0,
+          "max": 2
+        },
+        "chance": 100
+      },
+      {
+        "item": "Music Disc",
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "chance": 100
+      }
+    ],
+    "behavior": "Silently approaches players and detonates after a 1.5s fuse. Explosion destroys blocks. Charged creepers (struck by lightning) have double explosion power.",
+    "weaknesses": [
+      "Cats and ocelots (flees from them)",
+      "Shields",
+      "Knockback"
+    ],
+    "tameable": false,
+    "tamingMethod": null,
+    "breedable": false,
+    "breedingItem": null,
+    "versionAdded": "Classic 0.24_SURVIVAL_TEST",
+    "category": "hostile",
+    "notes": "Music Discs drop only when killed by a skeleton or stray arrow. Charged creepers kill another mob to drop its head. Iconic Minecraft mob created from a modeling error."
+  }
+}</code></pre>
+
+<pre><code>&lt;dl&gt;
+  &lt;dt&gt;Tipo:&lt;/dt&gt; &lt;dd&gt;Hostil&lt;/dd&gt;
+  &lt;dt&gt;Salud:&lt;/dt&gt; &lt;dd&gt;20 HP&lt;/dd&gt;
+  &lt;dt&gt;Daño:&lt;/dt&gt; &lt;dd&gt;22 puntos (fácil), 43 puntos (normal), 64 puntos (difícil)&lt;/dd&gt;
+  &lt;dt&gt;Experiencia:&lt;/dt&gt; &lt;dd&gt;Mínimo 5, Máximo 5 XP&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+
+        <p>El HTML de la ficha del Creeper se genera a partir de este JSON, con etiquetas <code>&lt;dl&gt;</code>, <code>&lt;ul&gt;</code> y <code>&lt;table&gt;</code> para mostrar los datos de manera estructurada.</p>
+        <p>Para poder verlo mejor aún, lo vamos a representar en una tabla</p>
+        <table>
+            <caption>Cómo he convertido los campos del JSON</caption>
+            <tr><th scope="col">Campo del JSON</th><th scope="col">Elemento del HTML</th></tr>
+            <tr><td>name</td><td>título de la ficha (h1) y título de la pestaña</td></tr>
+            <tr><td>hp</td><td>par "Salud: 20 HP" del dl de datos clave</td></tr>
+            <tr><td>damage.*</td><td>el dd del daño con sus tres dificultades</td></tr>
+            <tr><td>xpDrop.*</td><td>el dd de la experiencia mínima y máxima</td></tr>
+            <tr><td>spawnBiomes</td><td>el dd de los biomas donde aparece</td></tr>
+            <tr><td>spawnConditions</td><td>el dd de las condiciones de aparición</td></tr>
+            <tr><td>drops</td><td>la tabla de botines con sus probabilidades y objetos</td></tr>
+            <tr><td>behavior</td><td>el dd del comportamiento</td></tr>
+            <tr><td>weaknesses</td><td>la lista de debilidades</td></tr>
+        </table>
     </main>
     <footer>
         <p> Datos de criaturas de: <a href="https://api.astroworldmc.com">Powered by Astroworld API</a></p>
