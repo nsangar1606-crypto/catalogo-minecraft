@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Propuesta de mob para el catálogo de criaturas de Minecraft, con datos reales de la API Astroworld.">
+    <title>Propón un mob - Mobs de Minecraft</title>
+</head>
+
+<body>
+    <a href="#main">Ir al contenido principal</a>
+    <header>
+        <p><a href="index.html">Catálogo de Mobs de Minecraft</a></p>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html" >Mobs</a></li>
+                <li><a href="comparativa.html">Comparativa</a></li>
+                <li><a href="sobre-los-datos.html">Sobre los datos</a></li>
+                <li><a href="propuesta.html" aria-current="page">Propuesta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>Propón una criatura nueva</h1>
+        <p>Si te has quedado con ganas de ver las características de tu mob favorito, te invito a que lo propongas en este cuestionario.</p>
+        <form>
+        <p>Los campos marcados con * son obligatorios.</p>
+            <fieldset>
+                <legend> Identificación del mob </legend>
+                <label for="nombre">Nombre del mob *:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="tipo">Tipo de mob *:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Seleccione un tipo</option>
+                    <option value="pacifico">Pacífico</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="hostil">Hostil</option>
+                    <option value="jefe">Jefe</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend> Estadísticas de combate</legend>
+                <label for="salud">Salud del mob *:</label>
+                <input type="number" id="salud" name="salud" min="1" max="1000" required>
+                <label for="dano-facil">Daño del mob en fácil *:</label>
+                <input type="number" id="dano-facil" name="dano-facil" min="0" max="500" required>
+                <label for="dano-normal">Daño del mob en normal *:</label>
+                <input type="number" id="dano-normal" name="dano-normal" min="0" max="500" required>
+                <label for="dano-dificil">Daño del mob en difícil *:</label>
+                <input type="number" id="dano-dificil" name="dano-dificil" min="0" max="500" required>
+                <label for="xp_minimo">XP mínimo *:</label>
+                <input type="number" id="xp_minimo" name="xp_minimo" min="0" max="20000" required>
+                <label for="xp_maximo">XP máximo *:</label>
+                <input type="number" id="xp_maximo" name="xp_maximo" min="0" max="20000" required>
+            </fieldset>
+            <fieldset>
+                <legend>Aparición y comportamiento</legend>
+                <label for="bioma">Bioma donde aparece *:</label>
+                <input type="text" id="bioma" name="bioma" maxlength="200" required>
+                <label for="condiciones-aparicion">Condiciones de aparición *:</label>
+                <input type="text" id="condiciones-aparicion" name="condiciones_aparicion" maxlength="300" required>
+                <label for="comportamiento">Comportamiento del mob *:</label>
+                <textarea id="comportamiento" name="comportamiento" rows="4" maxlength="500" required></textarea>
+                <label for="domar">¿Se puede domar? </label>
+                <input type="checkbox" id="domar" name="domar">
+                <label for="criar">¿Se puede criar? </label>
+                <input type="checkbox" id="criar" name="criar">
+                <label for="version">Versión de Minecraft donde aparece *:</label>
+                <input type="text" id="version" name="version" maxlength="15" required>
+            </fieldset>
+            <fieldset>
+                <legend>Curiosidades y botines</legend>
+                <label for="curiosidades">Curiosidades del mob *:</label>
+                <textarea id="curiosidades" name="curiosidades" rows="4" maxlength="500" required></textarea>
+                <label for="botines">Botines que deja al morir *:</label>
+                <textarea id="botines" name="botines" rows="4" maxlength="500" required></textarea>
+            </fieldset>
+            <button type="submit">Enviar propuesta</button>
+            </form>
+
+    </main>
+    <footer>
+        <p> Datos de criaturas de: <a href="https://api.astroworldmc.com">Powered by Astroworld API</a></p>
+        <p><a href="https://github.com/nsangar1606-crypto/catalogo-minecraft"> Repositorio del proyecto</a></p>
+    </footer>
+</body>
+</html>
+
