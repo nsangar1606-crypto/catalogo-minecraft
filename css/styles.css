@@ -1,0 +1,12 @@
+
+
+html, body{
+  width: 800px;
+  height: 400px;
+  background-image: url("../assets/img/lush_caves.png");
+}
+
+header
+{
+    background-color: rgb(14, 211, 132);
+}
