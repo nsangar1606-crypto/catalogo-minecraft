@@ -6,7 +6,17 @@ html, body{
   background-image: url("../assets/img/lush_caves.png");
 }
 
-header
+html, body, header
 {
     background-color: rgba(122, 203, 126, 0.589);
+}
+
+html, body, li
+{
+  background-color: rgba(240, 255, 255, 0.46);
+}
+
+html, body, li
+{
+  background-color: rgba(240, 255, 255, 0.46);
 }
