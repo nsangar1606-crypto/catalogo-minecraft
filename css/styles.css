@@ -1,22 +1,12 @@
 
 
-html, body{
-  width: 800px;
-  height: 400px;
+html 
+{
   background-image: url("../assets/img/lush_caves.png");
 }
 
-html, body, header
+.enlace_contenido_principal
 {
-    background-color: rgba(122, 203, 126, 0.589);
-}
-
-html, body, li
-{
-  background-color: rgba(240, 255, 255, 0.46);
-}
-
-html, body, li
-{
-  background-color: rgba(240, 255, 255, 0.46);
+  display: flex;
+  justify-content: center;
 }
